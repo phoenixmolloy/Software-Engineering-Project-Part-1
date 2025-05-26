@@ -1,7 +1,25 @@
 -- database: ./database.db
-
--- CREATE TABLE id7-tusers(id INTEGER PRIMARY KEY autoincrement,username TEXT NOT NULL UNIQUE, password TEXT NOT NULL);
-
 -- INSERT INTO id7-tusers(username,password) VALUES ("","");
-
 -- SELECT * FROM extension;
+
+-- INSERT INTO Quizzer(question_number ,paper_year ,question,a ,b ,c ,d ,correct_answer ,core , topic_question ,dot_point,point)
+-- VALUES ("","","","","","","","","","","","");
+
+
+--CREATE TABLE Quizzer(id INTEGER PRIMARY KEY autoincrement,question_number int,paper_year int,question TEXT NOT NULL,a TEXT,b TEXT,c TEXT,d TEXT,correct_answer TEXT NOT NULL,core TEXT NOT NULL, topic_question TEXT NOT NULL,dot_point TEXT NOT NULL,point TEXT NOT NULL);
+
+-- INSERT INTO Quizzer(question_number ,paper_year ,question,a ,b ,c ,d)
+-- VALUES ("19","2024",
+-- "Improvements in the health of Aboriginal and Torres Strait Islander peoples in relation
+-- to which THREE chronic health conditions has resulted in a reduction in mortality rates?",
+-- "Cancer, diabetes, kidney disease",
+-- "Cancer, cardiovascular disease, diabetes",
+-- "Cancer, cardiovascular disease, kidney disease",
+-- "Cardiovascular disease, diabetes, kidney disease");
+
+-- ALTER TABLE Quizzer
+-- ADD COLUMN core TEXT;
+
+UPDATE Quizzer
+SET correct_answer = 'd'
+WHERE question_number = 19;
