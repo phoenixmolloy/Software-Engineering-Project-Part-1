@@ -3,6 +3,7 @@ from flask import redirect
 from flask import render_template
 from flask import request
 from flask import jsonify
+from flask import session
 import requests
 from flask_wtf import CSRFProtect
 from flask_csp.csp import csp_header
@@ -10,6 +11,8 @@ import logging
 
 import userManagement as dbHandler
 
+
+csrf = CSRFProtect(app)
 # Code snippet for logging a message
 # app.logger.critical("message")
 
@@ -59,7 +62,7 @@ def root():
     }
 )
 def index():
-    return render_template("/index.html")
+    return render_template("index.html")
 
 
 @app.route("/privacy.html", methods=["GET"])
@@ -85,6 +88,42 @@ def csp_report():
     app.logger.critical(request.data.decode())
     return "done"
 
+# @app.route("/PDHPE", methods=["GET", "POST"])
+# def pdhpe():
+#     if request.method == "POST":
+#         selected = request.form.get("answer")
+#         # You can add logic here to check if the answer is correct
+#         # and fetch a new question or show feedback
+#     question = dbHandler.get_question()
+#     return render_template("PDHPE.html", question=question)
+
+@app.route("/PDHPE", methods=["GET", "POST"])
+def pdhpe():
+    feedback = None
+    if "correct_answers" not in session:
+        session["correct_answers"] = 0
+
+    if request.method == "POST":
+        selected = request.form.get("answer")
+        correct = session.get("current_correct")
+        if correct and selected == correct:
+            session["correct_answers"] += 1
+            feedback = "Correct!"
+        elif correct:
+            feedback = f"Wrong! The correct answer was {correct.upper()}."
+        # Get a new question for the next round
+        question = dbHandler.get_question()
+        session["current_correct"] = question["correct_answer"]
+    else:
+        question = dbHandler.get_question()
+        session["current_correct"] = question["correct_answer"] 
+
+    return render_template(
+        "PDHPE.html",
+        question=question,
+        feedback=feedback,
+        correct_answers=session["correct_answers"]
+    )
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=5000)

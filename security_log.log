@@ -53,3 +53,717 @@
 2025-05-23 04:03:59,461 127.0.0.1 - - [23/May/2025 04:03:59] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
 2025-05-23 04:03:59,538 {"csp-report":{"document-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/?","referrer":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
 2025-05-23 04:03:59,538 127.0.0.1 - - [23/May/2025 04:03:59] "POST /csp_report HTTP/1.1" 200 -
+2025-05-26 02:17:32,805 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.127:5000
+2025-05-26 02:17:32,805 [33mPress CTRL+C to quit[0m
+2025-05-26 02:17:32,806  * Restarting with stat
+2025-05-26 02:17:33,041  * Debugger is active!
+2025-05-26 02:17:33,046  * Debugger PIN: 118-856-992
+2025-05-26 02:17:39,062 127.0.0.1 - - [26/May/2025 02:17:39] "GET / HTTP/1.1" 200 -
+2025-05-26 02:17:39,294 127.0.0.1 - - [26/May/2025 02:17:39] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2025-05-26 02:17:39,294 127.0.0.1 - - [26/May/2025 02:17:39] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2025-05-26 02:17:39,295 127.0.0.1 - - [26/May/2025 02:17:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 02:17:39,493 127.0.0.1 - - [26/May/2025 02:17:39] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 02:17:39,625 127.0.0.1 - - [26/May/2025 02:17:39] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 02:17:39,714 {"csp-report":{"document-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/","referrer":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-05-26 02:17:39,714 127.0.0.1 - - [26/May/2025 02:17:39] "POST /csp_report HTTP/1.1" 200 -
+2025-05-26 02:18:45,030  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-26 02:18:45,071  * Restarting with stat
+2025-05-26 02:18:45,355  * Debugger is active!
+2025-05-26 02:18:45,356  * Debugger PIN: 118-856-992
+2025-05-26 02:21:07,063 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.127:5000
+2025-05-26 02:21:07,063 [33mPress CTRL+C to quit[0m
+2025-05-26 02:21:07,064  * Restarting with stat
+2025-05-26 02:21:07,310  * Debugger is active!
+2025-05-26 02:21:07,311  * Debugger PIN: 118-856-992
+2025-05-26 02:21:09,144 127.0.0.1 - - [26/May/2025 02:21:09] "GET / HTTP/1.1" 200 -
+2025-05-26 02:21:09,348 127.0.0.1 - - [26/May/2025 02:21:09] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 02:21:09,371 127.0.0.1 - - [26/May/2025 02:21:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 02:21:09,389 127.0.0.1 - - [26/May/2025 02:21:09] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 02:21:09,553 127.0.0.1 - - [26/May/2025 02:21:09] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 02:21:09,661 127.0.0.1 - - [26/May/2025 02:21:09] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 02:21:09,741 {"csp-report":{"document-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/","referrer":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-05-26 02:21:09,741 127.0.0.1 - - [26/May/2025 02:21:09] "POST /csp_report HTTP/1.1" 200 -
+2025-05-26 02:22:26,210 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.127:5000
+2025-05-26 02:22:26,210 [33mPress CTRL+C to quit[0m
+2025-05-26 02:22:26,210  * Restarting with stat
+2025-05-26 02:22:26,469  * Debugger is active!
+2025-05-26 02:22:26,469  * Debugger PIN: 118-856-992
+2025-05-26 02:22:40,427 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.127:5000
+2025-05-26 02:22:40,427 [33mPress CTRL+C to quit[0m
+2025-05-26 02:22:40,428  * Restarting with stat
+2025-05-26 02:22:40,663  * Debugger is active!
+2025-05-26 02:22:40,664  * Debugger PIN: 118-856-992
+2025-05-26 02:22:41,121 127.0.0.1 - - [26/May/2025 02:22:41] "GET / HTTP/1.1" 200 -
+2025-05-26 02:22:41,207 127.0.0.1 - - [26/May/2025 02:22:41] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 02:22:41,207 127.0.0.1 - - [26/May/2025 02:22:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 02:22:41,275 127.0.0.1 - - [26/May/2025 02:22:41] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 02:22:41,315 127.0.0.1 - - [26/May/2025 02:22:41] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 02:22:41,440 127.0.0.1 - - [26/May/2025 02:22:41] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 02:22:41,524 {"csp-report":{"document-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/","referrer":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-05-26 02:22:41,524 127.0.0.1 - - [26/May/2025 02:22:41] "POST /csp_report HTTP/1.1" 200 -
+2025-05-26 02:23:32,976 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.127:5000
+2025-05-26 02:23:32,976 [33mPress CTRL+C to quit[0m
+2025-05-26 02:23:32,977  * Restarting with stat
+2025-05-26 02:23:33,218  * Debugger is active!
+2025-05-26 02:23:33,219  * Debugger PIN: 118-856-992
+2025-05-26 02:23:34,094 127.0.0.1 - - [26/May/2025 02:23:34] "GET / HTTP/1.1" 200 -
+2025-05-26 02:23:34,153 127.0.0.1 - - [26/May/2025 02:23:34] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 02:23:34,155 127.0.0.1 - - [26/May/2025 02:23:34] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 02:23:34,156 127.0.0.1 - - [26/May/2025 02:23:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 02:23:34,224 127.0.0.1 - - [26/May/2025 02:23:34] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 02:23:34,258 127.0.0.1 - - [26/May/2025 02:23:34] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 02:23:34,342 {"csp-report":{"document-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/","referrer":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-05-26 02:23:34,342 127.0.0.1 - - [26/May/2025 02:23:34] "POST /csp_report HTTP/1.1" 200 -
+2025-05-26 02:25:08,073 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.127:5000
+2025-05-26 02:25:08,074 [33mPress CTRL+C to quit[0m
+2025-05-26 02:25:08,074  * Restarting with stat
+2025-05-26 02:25:08,310  * Debugger is active!
+2025-05-26 02:25:08,311  * Debugger PIN: 118-856-992
+2025-05-26 02:25:10,182 127.0.0.1 - - [26/May/2025 02:25:10] "GET / HTTP/1.1" 200 -
+2025-05-26 02:25:10,283 127.0.0.1 - - [26/May/2025 02:25:10] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 02:25:10,388 127.0.0.1 - - [26/May/2025 02:25:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 02:25:10,392 127.0.0.1 - - [26/May/2025 02:25:10] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 02:25:10,475 127.0.0.1 - - [26/May/2025 02:25:10] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 02:25:10,509 127.0.0.1 - - [26/May/2025 02:25:10] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 02:25:10,595 {"csp-report":{"document-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/","referrer":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-05-26 02:25:10,596 127.0.0.1 - - [26/May/2025 02:25:10] "POST /csp_report HTTP/1.1" 200 -
+2025-05-26 02:25:34,757 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.127:5000
+2025-05-26 02:25:34,757 [33mPress CTRL+C to quit[0m
+2025-05-26 02:25:34,757  * Restarting with stat
+2025-05-26 02:25:34,994  * Debugger is active!
+2025-05-26 02:25:34,994  * Debugger PIN: 118-856-992
+2025-05-26 02:25:36,657 127.0.0.1 - - [26/May/2025 02:25:36] "GET / HTTP/1.1" 200 -
+2025-05-26 02:25:36,722 127.0.0.1 - - [26/May/2025 02:25:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 02:25:36,724 127.0.0.1 - - [26/May/2025 02:25:36] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 02:25:36,726 127.0.0.1 - - [26/May/2025 02:25:36] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 02:25:36,804 127.0.0.1 - - [26/May/2025 02:25:36] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 02:25:36,831 127.0.0.1 - - [26/May/2025 02:25:36] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 02:25:36,921 {"csp-report":{"document-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/","referrer":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-05-26 02:25:36,921 127.0.0.1 - - [26/May/2025 02:25:36] "POST /csp_report HTTP/1.1" 200 -
+2025-05-26 02:27:50,527 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.127:5000
+2025-05-26 02:27:50,527 [33mPress CTRL+C to quit[0m
+2025-05-26 02:27:50,528  * Restarting with stat
+2025-05-26 02:27:50,763  * Debugger is active!
+2025-05-26 02:27:50,764  * Debugger PIN: 118-856-992
+2025-05-26 02:27:51,514 127.0.0.1 - - [26/May/2025 02:27:51] "GET / HTTP/1.1" 200 -
+2025-05-26 02:27:51,728 127.0.0.1 - - [26/May/2025 02:27:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 02:27:51,765 127.0.0.1 - - [26/May/2025 02:27:51] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 02:27:51,792 127.0.0.1 - - [26/May/2025 02:27:51] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 02:27:51,913 127.0.0.1 - - [26/May/2025 02:27:51] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 02:27:52,020 127.0.0.1 - - [26/May/2025 02:27:52] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 02:27:52,119 {"csp-report":{"document-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/","referrer":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-05-26 02:27:52,120 127.0.0.1 - - [26/May/2025 02:27:52] "POST /csp_report HTTP/1.1" 200 -
+2025-05-26 02:29:53,362 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.127:5000
+2025-05-26 02:29:53,362 [33mPress CTRL+C to quit[0m
+2025-05-26 02:29:53,362  * Restarting with stat
+2025-05-26 02:29:53,604  * Debugger is active!
+2025-05-26 02:29:53,605  * Debugger PIN: 118-856-992
+2025-05-26 02:30:05,140 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.127:5000
+2025-05-26 02:30:05,140 [33mPress CTRL+C to quit[0m
+2025-05-26 02:30:05,141  * Restarting with stat
+2025-05-26 02:30:05,377  * Debugger is active!
+2025-05-26 02:30:05,377  * Debugger PIN: 118-856-992
+2025-05-26 02:30:06,025 127.0.0.1 - - [26/May/2025 02:30:06] "GET / HTTP/1.1" 200 -
+2025-05-26 02:30:06,268 127.0.0.1 - - [26/May/2025 02:30:06] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 02:30:06,285 127.0.0.1 - - [26/May/2025 02:30:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 02:30:06,289 127.0.0.1 - - [26/May/2025 02:30:06] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 02:30:06,464 127.0.0.1 - - [26/May/2025 02:30:06] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 02:30:06,490 127.0.0.1 - - [26/May/2025 02:30:06] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 02:30:06,573 {"csp-report":{"document-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/","referrer":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-05-26 02:30:06,573 127.0.0.1 - - [26/May/2025 02:30:06] "POST /csp_report HTTP/1.1" 200 -
+2025-05-26 02:30:41,305 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.127:5000
+2025-05-26 02:30:41,305 [33mPress CTRL+C to quit[0m
+2025-05-26 02:30:41,305  * Restarting with stat
+2025-05-26 02:30:41,554  * Debugger is active!
+2025-05-26 02:30:41,554  * Debugger PIN: 118-856-992
+2025-05-26 02:30:42,795 127.0.0.1 - - [26/May/2025 02:30:42] "GET / HTTP/1.1" 200 -
+2025-05-26 02:30:42,858 127.0.0.1 - - [26/May/2025 02:30:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 02:30:42,859 127.0.0.1 - - [26/May/2025 02:30:42] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 02:30:42,861 127.0.0.1 - - [26/May/2025 02:30:42] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 02:30:42,940 127.0.0.1 - - [26/May/2025 02:30:42] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 02:30:43,299 127.0.0.1 - - [26/May/2025 02:30:43] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 02:30:43,395 {"csp-report":{"document-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/","referrer":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-05-26 02:30:43,395 127.0.0.1 - - [26/May/2025 02:30:43] "POST /csp_report HTTP/1.1" 200 -
+2025-05-26 02:31:27,761 127.0.0.1 - - [26/May/2025 02:31:27] "GET /privacy.html HTTP/1.1" 200 -
+2025-05-26 02:31:28,033 127.0.0.1 - - [26/May/2025 02:31:28] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 02:31:28,034 127.0.0.1 - - [26/May/2025 02:31:28] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 02:31:28,040 127.0.0.1 - - [26/May/2025 02:31:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 02:31:28,079 127.0.0.1 - - [26/May/2025 02:31:28] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 02:31:28,113 127.0.0.1 - - [26/May/2025 02:31:28] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 02:31:29,142 127.0.0.1 - - [26/May/2025 02:31:29] "GET /form.html HTTP/1.1" 200 -
+2025-05-26 02:31:29,274 127.0.0.1 - - [26/May/2025 02:31:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 02:31:29,278 127.0.0.1 - - [26/May/2025 02:31:29] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 02:31:29,283 127.0.0.1 - - [26/May/2025 02:31:29] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 02:31:29,327 127.0.0.1 - - [26/May/2025 02:31:29] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 02:31:29,353 127.0.0.1 - - [26/May/2025 02:31:29] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 02:31:31,634 127.0.0.1 - - [26/May/2025 02:31:31] "GET /privacy.html HTTP/1.1" 200 -
+2025-05-26 02:34:05,655 127.0.0.1 - - [26/May/2025 02:34:05] "GET / HTTP/1.1" 200 -
+2025-05-26 02:34:05,940 {"csp-report":{"document-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/","referrer":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-05-26 02:34:05,940 127.0.0.1 - - [26/May/2025 02:34:05] "POST /csp_report HTTP/1.1" 200 -
+2025-05-26 02:36:42,568 127.0.0.1 - - [26/May/2025 02:36:42] "GET /form.html HTTP/1.1" 200 -
+2025-05-26 02:36:42,833 127.0.0.1 - - [26/May/2025 02:36:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 02:36:42,835 127.0.0.1 - - [26/May/2025 02:36:42] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 02:36:42,841 127.0.0.1 - - [26/May/2025 02:36:42] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 02:36:42,954 127.0.0.1 - - [26/May/2025 02:36:42] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 02:36:43,062 127.0.0.1 - - [26/May/2025 02:36:43] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 02:40:44,893  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-26 02:40:44,936  * Restarting with stat
+2025-05-26 02:44:57,873 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.127:5000
+2025-05-26 02:44:57,873 [33mPress CTRL+C to quit[0m
+2025-05-26 02:44:57,874  * Restarting with stat
+2025-05-26 02:44:58,156  * Debugger is active!
+2025-05-26 02:44:58,156  * Debugger PIN: 118-856-992
+2025-05-26 02:44:59,535 127.0.0.1 - - [26/May/2025 02:44:59] "GET / HTTP/1.1" 200 -
+2025-05-26 02:44:59,737 127.0.0.1 - - [26/May/2025 02:44:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 02:44:59,750 127.0.0.1 - - [26/May/2025 02:44:59] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 02:44:59,757 127.0.0.1 - - [26/May/2025 02:44:59] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 02:44:59,911 127.0.0.1 - - [26/May/2025 02:44:59] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 02:45:00,023 127.0.0.1 - - [26/May/2025 02:45:00] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 02:45:00,118 {"csp-report":{"document-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/","referrer":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-05-26 02:45:00,119 127.0.0.1 - - [26/May/2025 02:45:00] "POST /csp_report HTTP/1.1" 200 -
+2025-05-26 02:48:37,976  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-26 02:48:38,010  * Restarting with stat
+2025-05-26 02:55:56,383 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.127:5000
+2025-05-26 02:55:56,383 [33mPress CTRL+C to quit[0m
+2025-05-26 02:55:56,384  * Restarting with stat
+2025-05-26 02:55:56,652  * Debugger is active!
+2025-05-26 02:55:56,652  * Debugger PIN: 118-856-992
+2025-05-26 02:55:59,820 127.0.0.1 - - [26/May/2025 02:55:59] "GET / HTTP/1.1" 200 -
+2025-05-26 02:56:00,328 127.0.0.1 - - [26/May/2025 02:56:00] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 02:56:00,328 127.0.0.1 - - [26/May/2025 02:56:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 02:56:00,329 127.0.0.1 - - [26/May/2025 02:56:00] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 02:56:00,494 127.0.0.1 - - [26/May/2025 02:56:00] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 02:56:00,601 127.0.0.1 - - [26/May/2025 02:56:00] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 02:56:00,691 {"csp-report":{"document-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/","referrer":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-05-26 02:56:00,691 127.0.0.1 - - [26/May/2025 02:56:00] "POST /csp_report HTTP/1.1" 200 -
+2025-05-26 02:56:02,707 127.0.0.1 - - [26/May/2025 02:56:02] "GET /privacy.html HTTP/1.1" 200 -
+2025-05-26 02:56:03,108 127.0.0.1 - - [26/May/2025 02:56:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 02:56:03,127 127.0.0.1 - - [26/May/2025 02:56:03] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 02:56:03,130 127.0.0.1 - - [26/May/2025 02:56:03] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 02:56:03,180 127.0.0.1 - - [26/May/2025 02:56:03] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 02:56:03,245 127.0.0.1 - - [26/May/2025 02:56:03] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 02:56:51,601 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.127:5000
+2025-05-26 02:56:51,601 [33mPress CTRL+C to quit[0m
+2025-05-26 02:56:51,602  * Restarting with stat
+2025-05-26 02:56:51,867  * Debugger is active!
+2025-05-26 02:56:51,867  * Debugger PIN: 118-856-992
+2025-05-26 02:56:53,701 127.0.0.1 - - [26/May/2025 02:56:53] "GET / HTTP/1.1" 200 -
+2025-05-26 02:56:53,768 127.0.0.1 - - [26/May/2025 02:56:53] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 02:56:53,771 127.0.0.1 - - [26/May/2025 02:56:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 02:56:53,773 127.0.0.1 - - [26/May/2025 02:56:53] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 02:56:53,829 127.0.0.1 - - [26/May/2025 02:56:53] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 02:56:53,859 127.0.0.1 - - [26/May/2025 02:56:53] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 02:56:53,941 {"csp-report":{"document-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/","referrer":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-05-26 02:56:53,941 127.0.0.1 - - [26/May/2025 02:56:53] "POST /csp_report HTTP/1.1" 200 -
+2025-05-26 02:56:55,333 127.0.0.1 - - [26/May/2025 02:56:55] "GET /privacy.html HTTP/1.1" 200 -
+2025-05-26 02:56:55,391 127.0.0.1 - - [26/May/2025 02:56:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 02:56:55,396 127.0.0.1 - - [26/May/2025 02:56:55] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 02:56:55,401 127.0.0.1 - - [26/May/2025 02:56:55] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 02:56:55,429 127.0.0.1 - - [26/May/2025 02:56:55] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 02:56:55,456 127.0.0.1 - - [26/May/2025 02:56:55] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 02:57:09,450 127.0.0.1 - - [26/May/2025 02:57:09] "GET / HTTP/1.1" 200 -
+2025-05-26 02:57:09,584 {"csp-report":{"document-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/","referrer":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-05-26 02:57:09,584 127.0.0.1 - - [26/May/2025 02:57:09] "POST /csp_report HTTP/1.1" 200 -
+2025-05-26 02:57:38,690 127.0.0.1 - - [26/May/2025 02:57:38] "GET /privacy.html HTTP/1.1" 200 -
+2025-05-26 02:57:38,753 127.0.0.1 - - [26/May/2025 02:57:38] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 02:57:38,756 127.0.0.1 - - [26/May/2025 02:57:38] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 02:57:38,758 127.0.0.1 - - [26/May/2025 02:57:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 02:57:38,792 127.0.0.1 - - [26/May/2025 02:57:38] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 02:57:38,824 127.0.0.1 - - [26/May/2025 02:57:38] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 02:57:39,697 127.0.0.1 - - [26/May/2025 02:57:39] "GET /privacy.html HTTP/1.1" 200 -
+2025-05-26 02:57:39,751 127.0.0.1 - - [26/May/2025 02:57:39] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 02:57:39,754 127.0.0.1 - - [26/May/2025 02:57:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 02:57:39,757 127.0.0.1 - - [26/May/2025 02:57:39] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 02:57:39,788 127.0.0.1 - - [26/May/2025 02:57:39] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 02:57:39,814 127.0.0.1 - - [26/May/2025 02:57:39] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 02:59:11,174 127.0.0.1 - - [26/May/2025 02:59:11] "GET /privacy.html HTTP/1.1" 200 -
+2025-05-26 02:59:11,320 127.0.0.1 - - [26/May/2025 02:59:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 02:59:11,333 127.0.0.1 - - [26/May/2025 02:59:11] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 02:59:11,336 127.0.0.1 - - [26/May/2025 02:59:11] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 02:59:11,405 127.0.0.1 - - [26/May/2025 02:59:11] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 02:59:11,515 127.0.0.1 - - [26/May/2025 02:59:11] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 23:13:45,678 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.179:5000
+2025-05-26 23:13:45,679 [33mPress CTRL+C to quit[0m
+2025-05-26 23:13:45,681  * Restarting with stat
+2025-05-26 23:13:45,991  * Debugger is active!
+2025-05-26 23:13:45,992  * Debugger PIN: 119-629-241
+2025-05-26 23:13:51,198 127.0.0.1 - - [26/May/2025 23:13:51] "GET / HTTP/1.1" 200 -
+2025-05-26 23:13:51,517 127.0.0.1 - - [26/May/2025 23:13:51] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 23:13:51,522 127.0.0.1 - - [26/May/2025 23:13:51] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 23:13:51,524 127.0.0.1 - - [26/May/2025 23:13:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 23:13:51,717 127.0.0.1 - - [26/May/2025 23:13:51] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 23:13:51,999 127.0.0.1 - - [26/May/2025 23:13:51] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 23:13:52,102 {"csp-report":{"document-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/","referrer":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-05-26 23:13:52,102 127.0.0.1 - - [26/May/2025 23:13:52] "POST /csp_report HTTP/1.1" 200 -
+2025-05-26 23:20:39,256 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.179:5000
+2025-05-26 23:20:39,257 [33mPress CTRL+C to quit[0m
+2025-05-26 23:20:39,257  * Restarting with stat
+2025-05-26 23:20:39,512  * Debugger is active!
+2025-05-26 23:20:39,512  * Debugger PIN: 119-629-241
+2025-05-26 23:20:41,500 127.0.0.1 - - [26/May/2025 23:20:41] "GET / HTTP/1.1" 200 -
+2025-05-26 23:20:41,714 127.0.0.1 - - [26/May/2025 23:20:41] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 23:20:41,718 127.0.0.1 - - [26/May/2025 23:20:41] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 23:20:41,721 127.0.0.1 - - [26/May/2025 23:20:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 23:20:41,881 127.0.0.1 - - [26/May/2025 23:20:41] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 23:20:41,984 127.0.0.1 - - [26/May/2025 23:20:41] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 23:20:42,069 {"csp-report":{"document-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/","referrer":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-05-26 23:20:42,070 127.0.0.1 - - [26/May/2025 23:20:42] "POST /csp_report HTTP/1.1" 200 -
+2025-05-26 23:20:43,216 127.0.0.1 - - [26/May/2025 23:20:43] "[33mGET /PDHPE.html HTTP/1.1[0m" 404 -
+2025-05-26 23:20:43,744 127.0.0.1 - - [26/May/2025 23:20:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-26 23:20:45,489 127.0.0.1 - - [26/May/2025 23:20:45] "GET / HTTP/1.1" 200 -
+2025-05-26 23:20:45,584 {"csp-report":{"document-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/","referrer":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-05-26 23:20:45,584 127.0.0.1 - - [26/May/2025 23:20:45] "POST /csp_report HTTP/1.1" 200 -
+2025-05-26 23:20:47,786 127.0.0.1 - - [26/May/2025 23:20:47] "[33mGET /PDHPE.html HTTP/1.1[0m" 404 -
+2025-05-26 23:20:58,072 127.0.0.1 - - [26/May/2025 23:20:58] "[33mGET /PDHPE.html HTTP/1.1[0m" 404 -
+2025-05-26 23:22:19,225 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.179:5000
+2025-05-26 23:22:19,226 [33mPress CTRL+C to quit[0m
+2025-05-26 23:22:19,226  * Restarting with stat
+2025-05-26 23:22:19,468  * Debugger is active!
+2025-05-26 23:22:19,468  * Debugger PIN: 119-629-241
+2025-05-26 23:22:27,236 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.179:5000
+2025-05-26 23:22:27,236 [33mPress CTRL+C to quit[0m
+2025-05-26 23:22:27,237  * Restarting with stat
+2025-05-26 23:22:27,474  * Debugger is active!
+2025-05-26 23:22:27,475  * Debugger PIN: 119-629-241
+2025-05-26 23:22:27,919 127.0.0.1 - - [26/May/2025 23:22:27] "GET / HTTP/1.1" 200 -
+2025-05-26 23:22:28,140 127.0.0.1 - - [26/May/2025 23:22:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 23:22:28,142 127.0.0.1 - - [26/May/2025 23:22:28] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 23:22:28,143 127.0.0.1 - - [26/May/2025 23:22:28] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 23:22:28,304 127.0.0.1 - - [26/May/2025 23:22:28] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 23:22:28,407 127.0.0.1 - - [26/May/2025 23:22:28] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 23:22:28,484 {"csp-report":{"document-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/","referrer":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-05-26 23:22:28,484 127.0.0.1 - - [26/May/2025 23:22:28] "POST /csp_report HTTP/1.1" 200 -
+2025-05-26 23:22:29,323 127.0.0.1 - - [26/May/2025 23:22:29] "[33mGET /PDHPE.html HTTP/1.1[0m" 404 -
+2025-05-26 23:24:48,444  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-26 23:24:48,485  * Restarting with stat
+2025-05-26 23:24:48,745  * Debugger is active!
+2025-05-26 23:24:48,745  * Debugger PIN: 119-629-241
+2025-05-26 23:25:06,016 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.179:5000
+2025-05-26 23:25:06,016 [33mPress CTRL+C to quit[0m
+2025-05-26 23:25:06,017  * Restarting with stat
+2025-05-26 23:25:06,253  * Debugger is active!
+2025-05-26 23:25:06,254  * Debugger PIN: 119-629-241
+2025-05-26 23:25:07,362 127.0.0.1 - - [26/May/2025 23:25:07] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-05-26 23:25:07,512 127.0.0.1 - - [26/May/2025 23:25:07] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-05-26 23:25:07,516 127.0.0.1 - - [26/May/2025 23:25:07] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-05-26 23:25:07,641 127.0.0.1 - - [26/May/2025 23:25:07] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=f63iro6HIR5Ur2YrFUaT HTTP/1.1" 200 -
+2025-05-26 23:25:07,737 127.0.0.1 - - [26/May/2025 23:25:07] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-26 23:25:55,923  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-26 23:25:55,961  * Restarting with stat
+2025-05-26 23:25:56,213  * Debugger is active!
+2025-05-26 23:25:56,213  * Debugger PIN: 119-629-241
+2025-05-26 23:26:08,784 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.179:5000
+2025-05-26 23:26:08,784 [33mPress CTRL+C to quit[0m
+2025-05-26 23:26:08,785  * Restarting with stat
+2025-05-26 23:26:09,026  * Debugger is active!
+2025-05-26 23:26:09,026  * Debugger PIN: 119-629-241
+2025-05-26 23:26:10,798 127.0.0.1 - - [26/May/2025 23:26:10] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-05-26 23:26:10,848 127.0.0.1 - - [26/May/2025 23:26:10] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-26 23:26:10,849 127.0.0.1 - - [26/May/2025 23:26:10] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-26 23:26:10,892 127.0.0.1 - - [26/May/2025 23:26:10] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=4cXTPIeg7A1FpUtx7pnt HTTP/1.1" 200 -
+2025-05-26 23:27:20,288  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-26 23:27:20,330  * Restarting with stat
+2025-05-26 23:27:20,587  * Debugger is active!
+2025-05-26 23:27:20,587  * Debugger PIN: 119-629-241
+2025-05-26 23:29:48,401  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-26 23:29:48,438  * Restarting with stat
+2025-05-26 23:29:48,686  * Debugger is active!
+2025-05-26 23:29:48,686  * Debugger PIN: 119-629-241
+2025-05-26 23:30:10,923 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.179:5000
+2025-05-26 23:30:10,923 [33mPress CTRL+C to quit[0m
+2025-05-26 23:30:10,924  * Restarting with stat
+2025-05-26 23:30:11,166  * Debugger is active!
+2025-05-26 23:30:11,166  * Debugger PIN: 119-629-241
+2025-05-26 23:30:12,528 127.0.0.1 - - [26/May/2025 23:30:12] "GET / HTTP/1.1" 200 -
+2025-05-26 23:30:12,708 127.0.0.1 - - [26/May/2025 23:30:12] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 23:30:12,711 127.0.0.1 - - [26/May/2025 23:30:12] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 23:30:12,725 127.0.0.1 - - [26/May/2025 23:30:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 23:30:12,865 127.0.0.1 - - [26/May/2025 23:30:12] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 23:30:12,960 127.0.0.1 - - [26/May/2025 23:30:12] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 23:30:13,048 {"csp-report":{"document-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/","referrer":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-05-26 23:30:13,048 127.0.0.1 - - [26/May/2025 23:30:13] "POST /csp_report HTTP/1.1" 200 -
+2025-05-26 23:30:13,651 127.0.0.1 - - [26/May/2025 23:30:13] "GET /PDHPE HTTP/1.1" 200 -
+2025-05-26 23:30:13,934 127.0.0.1 - - [26/May/2025 23:30:13] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 23:30:13,938 127.0.0.1 - - [26/May/2025 23:30:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 23:30:13,940 127.0.0.1 - - [26/May/2025 23:30:13] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 23:30:13,977 127.0.0.1 - - [26/May/2025 23:30:13] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 23:30:14,006 127.0.0.1 - - [26/May/2025 23:30:14] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 23:30:19,911 127.0.0.1 - - [26/May/2025 23:30:19] "GET / HTTP/1.1" 200 -
+2025-05-26 23:30:20,000 {"csp-report":{"document-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/","referrer":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-05-26 23:30:20,001 127.0.0.1 - - [26/May/2025 23:30:20] "POST /csp_report HTTP/1.1" 200 -
+2025-05-26 23:30:22,751 127.0.0.1 - - [26/May/2025 23:30:22] "GET /PDHPE HTTP/1.1" 200 -
+2025-05-26 23:30:22,819 127.0.0.1 - - [26/May/2025 23:30:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 23:30:22,821 127.0.0.1 - - [26/May/2025 23:30:22] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 23:30:22,823 127.0.0.1 - - [26/May/2025 23:30:22] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 23:30:22,853 127.0.0.1 - - [26/May/2025 23:30:22] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 23:30:22,877 127.0.0.1 - - [26/May/2025 23:30:22] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 23:34:03,799  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-26 23:34:03,839  * Restarting with stat
+2025-05-26 23:34:04,096  * Debugger is active!
+2025-05-26 23:34:04,096  * Debugger PIN: 119-629-241
+2025-05-26 23:34:06,092 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.179:5000
+2025-05-26 23:34:06,092 [33mPress CTRL+C to quit[0m
+2025-05-26 23:34:06,093  * Restarting with stat
+2025-05-26 23:34:06,341  * Debugger is active!
+2025-05-26 23:34:06,342  * Debugger PIN: 119-629-241
+2025-05-26 23:34:07,655 127.0.0.1 - - [26/May/2025 23:34:07] "GET / HTTP/1.1" 200 -
+2025-05-26 23:34:07,844 127.0.0.1 - - [26/May/2025 23:34:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 23:34:07,847 127.0.0.1 - - [26/May/2025 23:34:07] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 23:34:07,863 127.0.0.1 - - [26/May/2025 23:34:07] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 23:34:07,991 127.0.0.1 - - [26/May/2025 23:34:07] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 23:34:08,095 127.0.0.1 - - [26/May/2025 23:34:08] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 23:34:08,182 {"csp-report":{"document-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/","referrer":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-05-26 23:34:08,182 127.0.0.1 - - [26/May/2025 23:34:08] "POST /csp_report HTTP/1.1" 200 -
+2025-05-26 23:34:08,910 127.0.0.1 - - [26/May/2025 23:34:08] "[35m[1mGET /PDHPE HTTP/1.1[0m" 500 -
+2025-05-26 23:34:08,951 127.0.0.1 - - [26/May/2025 23:34:08] "GET /PDHPE?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-05-26 23:34:08,953 127.0.0.1 - - [26/May/2025 23:34:08] "GET /PDHPE?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-05-26 23:34:08,983 127.0.0.1 - - [26/May/2025 23:34:08] "GET /PDHPE?__debugger__=yes&cmd=resource&f=console.png&s=Wi2r0EfA4XQEU79rfeV6 HTTP/1.1" 200 -
+2025-05-26 23:34:09,012 127.0.0.1 - - [26/May/2025 23:34:09] "GET /PDHPE?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-26 23:34:57,147  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-26 23:34:57,183  * Restarting with stat
+2025-05-26 23:34:57,424  * Debugger is active!
+2025-05-26 23:34:57,425  * Debugger PIN: 119-629-241
+2025-05-26 23:35:28,513  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/userManagement.py', reloading
+2025-05-26 23:35:28,549  * Restarting with stat
+2025-05-26 23:39:45,042 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.179:5000
+2025-05-26 23:39:45,043 [33mPress CTRL+C to quit[0m
+2025-05-26 23:39:45,043  * Restarting with stat
+2025-05-26 23:39:45,308  * Debugger is active!
+2025-05-26 23:39:45,308  * Debugger PIN: 119-629-241
+2025-05-26 23:39:47,151 127.0.0.1 - - [26/May/2025 23:39:47] "GET / HTTP/1.1" 200 -
+2025-05-26 23:39:47,354 127.0.0.1 - - [26/May/2025 23:39:47] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 23:39:47,355 127.0.0.1 - - [26/May/2025 23:39:47] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 23:39:47,357 127.0.0.1 - - [26/May/2025 23:39:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 23:39:47,528 127.0.0.1 - - [26/May/2025 23:39:47] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 23:39:47,665 127.0.0.1 - - [26/May/2025 23:39:47] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 23:39:47,759 {"csp-report":{"document-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/","referrer":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-05-26 23:39:47,760 127.0.0.1 - - [26/May/2025 23:39:47] "POST /csp_report HTTP/1.1" 200 -
+2025-05-26 23:39:49,036 127.0.0.1 - - [26/May/2025 23:39:49] "GET /PDHPE HTTP/1.1" 200 -
+2025-05-26 23:39:49,090 127.0.0.1 - - [26/May/2025 23:39:49] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 23:39:49,092 127.0.0.1 - - [26/May/2025 23:39:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 23:39:49,095 127.0.0.1 - - [26/May/2025 23:39:49] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 23:39:49,140 127.0.0.1 - - [26/May/2025 23:39:49] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 23:39:49,166 127.0.0.1 - - [26/May/2025 23:39:49] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 23:39:52,142 The CSRF token is missing.
+2025-05-26 23:39:52,142 127.0.0.1 - - [26/May/2025 23:39:52] "[31m[1mPOST /PDHPE HTTP/1.1[0m" 400 -
+2025-05-26 23:40:15,982 127.0.0.1 - - [26/May/2025 23:40:15] "GET / HTTP/1.1" 200 -
+2025-05-26 23:40:16,132 {"csp-report":{"document-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/","referrer":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-05-26 23:40:16,133 127.0.0.1 - - [26/May/2025 23:40:16] "POST /csp_report HTTP/1.1" 200 -
+2025-05-26 23:40:16,980 127.0.0.1 - - [26/May/2025 23:40:16] "GET /PDHPE HTTP/1.1" 200 -
+2025-05-26 23:40:17,074 127.0.0.1 - - [26/May/2025 23:40:17] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 23:40:17,076 127.0.0.1 - - [26/May/2025 23:40:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 23:40:17,090 127.0.0.1 - - [26/May/2025 23:40:17] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 23:40:17,129 127.0.0.1 - - [26/May/2025 23:40:17] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 23:40:17,164 127.0.0.1 - - [26/May/2025 23:40:17] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 23:40:28,260 127.0.0.1 - - [26/May/2025 23:40:28] "GET /PDHPE HTTP/1.1" 200 -
+2025-05-26 23:40:28,353 127.0.0.1 - - [26/May/2025 23:40:28] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2025-05-26 23:40:28,361 127.0.0.1 - - [26/May/2025 23:40:28] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-26 23:40:28,364 127.0.0.1 - - [26/May/2025 23:40:28] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2025-05-26 23:40:28,444 127.0.0.1 - - [26/May/2025 23:40:28] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 23:40:28,470 127.0.0.1 - - [26/May/2025 23:40:28] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 23:40:30,556 127.0.0.1 - - [26/May/2025 23:40:30] "GET /PDHPE HTTP/1.1" 200 -
+2025-05-26 23:40:30,619 127.0.0.1 - - [26/May/2025 23:40:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 23:40:30,622 127.0.0.1 - - [26/May/2025 23:40:30] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 23:40:30,625 127.0.0.1 - - [26/May/2025 23:40:30] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 23:40:30,683 127.0.0.1 - - [26/May/2025 23:40:30] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 23:40:30,718 127.0.0.1 - - [26/May/2025 23:40:30] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 23:40:33,325 127.0.0.1 - - [26/May/2025 23:40:33] "GET /PDHPE HTTP/1.1" 200 -
+2025-05-26 23:40:33,392 127.0.0.1 - - [26/May/2025 23:40:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 23:40:33,395 127.0.0.1 - - [26/May/2025 23:40:33] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 23:40:33,399 127.0.0.1 - - [26/May/2025 23:40:33] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 23:40:33,431 127.0.0.1 - - [26/May/2025 23:40:33] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 23:40:33,464 127.0.0.1 - - [26/May/2025 23:40:33] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 23:42:54,909  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/userManagement.py', reloading
+2025-05-26 23:42:54,945  * Restarting with stat
+2025-05-26 23:42:55,206  * Debugger is active!
+2025-05-26 23:42:55,206  * Debugger PIN: 119-629-241
+2025-05-26 23:44:01,745  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-26 23:44:01,783  * Restarting with stat
+2025-05-26 23:46:22,471 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.179:5000
+2025-05-26 23:46:22,471 [33mPress CTRL+C to quit[0m
+2025-05-26 23:46:22,472  * Restarting with stat
+2025-05-26 23:46:22,776  * Debugger is active!
+2025-05-26 23:46:22,776  * Debugger PIN: 119-629-241
+2025-05-26 23:46:23,923 127.0.0.1 - - [26/May/2025 23:46:23] "GET / HTTP/1.1" 200 -
+2025-05-26 23:46:24,092 127.0.0.1 - - [26/May/2025 23:46:24] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 23:46:24,105 127.0.0.1 - - [26/May/2025 23:46:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 23:46:24,107 127.0.0.1 - - [26/May/2025 23:46:24] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 23:46:24,392 127.0.0.1 - - [26/May/2025 23:46:24] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 23:46:24,494 127.0.0.1 - - [26/May/2025 23:46:24] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 23:46:24,608 {"csp-report":{"document-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/","referrer":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-05-26 23:46:24,608 127.0.0.1 - - [26/May/2025 23:46:24] "POST /csp_report HTTP/1.1" 200 -
+2025-05-26 23:46:25,100 127.0.0.1 - - [26/May/2025 23:46:25] "[35m[1mGET /PDHPE HTTP/1.1[0m" 500 -
+2025-05-26 23:46:25,147 127.0.0.1 - - [26/May/2025 23:46:25] "[36mGET /PDHPE?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-26 23:46:25,151 127.0.0.1 - - [26/May/2025 23:46:25] "[36mGET /PDHPE?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-26 23:46:25,367 127.0.0.1 - - [26/May/2025 23:46:25] "GET /PDHPE?__debugger__=yes&cmd=resource&f=console.png&s=yFDp9wqRN5bDxfhU7ev1 HTTP/1.1" 200 -
+2025-05-26 23:46:25,402 127.0.0.1 - - [26/May/2025 23:46:25] "[36mGET /PDHPE?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-26 23:47:29,371  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-26 23:47:29,408  * Restarting with stat
+2025-05-26 23:47:29,657  * Debugger is active!
+2025-05-26 23:47:29,657  * Debugger PIN: 119-629-241
+2025-05-26 23:47:31,878 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.179:5000
+2025-05-26 23:47:31,879 [33mPress CTRL+C to quit[0m
+2025-05-26 23:47:31,879  * Restarting with stat
+2025-05-26 23:47:32,136  * Debugger is active!
+2025-05-26 23:47:32,137  * Debugger PIN: 119-629-241
+2025-05-26 23:47:33,521 127.0.0.1 - - [26/May/2025 23:47:33] "GET / HTTP/1.1" 200 -
+2025-05-26 23:47:33,572 127.0.0.1 - - [26/May/2025 23:47:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 23:47:33,573 127.0.0.1 - - [26/May/2025 23:47:33] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 23:47:33,574 127.0.0.1 - - [26/May/2025 23:47:33] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 23:47:33,718 127.0.0.1 - - [26/May/2025 23:47:33] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 23:47:33,748 127.0.0.1 - - [26/May/2025 23:47:33] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 23:47:33,826 {"csp-report":{"document-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/","referrer":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-05-26 23:47:33,826 127.0.0.1 - - [26/May/2025 23:47:33] "POST /csp_report HTTP/1.1" 200 -
+2025-05-26 23:47:34,468 127.0.0.1 - - [26/May/2025 23:47:34] "[35m[1mGET /PDHPE HTTP/1.1[0m" 500 -
+2025-05-26 23:47:34,510 127.0.0.1 - - [26/May/2025 23:47:34] "[36mGET /PDHPE?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-26 23:47:34,518 127.0.0.1 - - [26/May/2025 23:47:34] "[36mGET /PDHPE?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-26 23:47:34,544 127.0.0.1 - - [26/May/2025 23:47:34] "GET /PDHPE?__debugger__=yes&cmd=resource&f=console.png&s=bvDaWkxaNnWWakIQ6Kxh HTTP/1.1" 200 -
+2025-05-26 23:48:23,430  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-26 23:48:23,471  * Restarting with stat
+2025-05-26 23:48:23,724  * Debugger is active!
+2025-05-26 23:48:23,724  * Debugger PIN: 119-629-241
+2025-05-26 23:48:25,267 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.179:5000
+2025-05-26 23:48:25,267 [33mPress CTRL+C to quit[0m
+2025-05-26 23:48:25,268  * Restarting with stat
+2025-05-26 23:48:25,511  * Debugger is active!
+2025-05-26 23:48:25,511  * Debugger PIN: 119-629-241
+2025-05-26 23:48:26,751 127.0.0.1 - - [26/May/2025 23:48:26] "GET / HTTP/1.1" 200 -
+2025-05-26 23:48:26,800 127.0.0.1 - - [26/May/2025 23:48:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 23:48:26,807 127.0.0.1 - - [26/May/2025 23:48:26] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 23:48:26,812 127.0.0.1 - - [26/May/2025 23:48:26] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 23:48:26,871 127.0.0.1 - - [26/May/2025 23:48:26] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 23:48:26,902 127.0.0.1 - - [26/May/2025 23:48:26] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 23:48:26,979 {"csp-report":{"document-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/","referrer":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-05-26 23:48:26,980 127.0.0.1 - - [26/May/2025 23:48:26] "POST /csp_report HTTP/1.1" 200 -
+2025-05-26 23:48:27,893 127.0.0.1 - - [26/May/2025 23:48:27] "[35m[1mGET /PDHPE HTTP/1.1[0m" 500 -
+2025-05-26 23:48:27,935 127.0.0.1 - - [26/May/2025 23:48:27] "[36mGET /PDHPE?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-26 23:48:27,938 127.0.0.1 - - [26/May/2025 23:48:27] "[36mGET /PDHPE?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-26 23:48:27,979 127.0.0.1 - - [26/May/2025 23:48:27] "GET /PDHPE?__debugger__=yes&cmd=resource&f=console.png&s=5WJ1qpc8XPY5Mt62UmDH HTTP/1.1" 200 -
+2025-05-26 23:51:23,073 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.179:5000
+2025-05-26 23:51:23,073 [33mPress CTRL+C to quit[0m
+2025-05-26 23:51:23,074  * Restarting with stat
+2025-05-26 23:51:23,331  * Debugger is active!
+2025-05-26 23:51:23,331  * Debugger PIN: 119-629-241
+2025-05-26 23:51:24,930 127.0.0.1 - - [26/May/2025 23:51:24] "GET / HTTP/1.1" 200 -
+2025-05-26 23:51:25,139 127.0.0.1 - - [26/May/2025 23:51:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 23:51:25,141 127.0.0.1 - - [26/May/2025 23:51:25] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 23:51:25,142 127.0.0.1 - - [26/May/2025 23:51:25] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 23:51:25,217 127.0.0.1 - - [26/May/2025 23:51:25] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 23:51:25,342 127.0.0.1 - - [26/May/2025 23:51:25] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 23:51:25,527 {"csp-report":{"document-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/","referrer":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-05-26 23:51:25,527 127.0.0.1 - - [26/May/2025 23:51:25] "POST /csp_report HTTP/1.1" 200 -
+2025-05-26 23:51:26,161 127.0.0.1 - - [26/May/2025 23:51:26] "[35m[1mGET /PDHPE HTTP/1.1[0m" 500 -
+2025-05-26 23:51:26,201 127.0.0.1 - - [26/May/2025 23:51:26] "[36mGET /PDHPE?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-26 23:51:26,204 127.0.0.1 - - [26/May/2025 23:51:26] "[36mGET /PDHPE?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-26 23:51:26,240 127.0.0.1 - - [26/May/2025 23:51:26] "GET /PDHPE?__debugger__=yes&cmd=resource&f=console.png&s=MEzss4IgCNfI8rD0NYFO HTTP/1.1" 200 -
+2025-05-26 23:52:22,987  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/userManagement.py', reloading
+2025-05-26 23:52:23,029  * Restarting with stat
+2025-05-26 23:52:23,277  * Debugger is active!
+2025-05-26 23:52:23,278  * Debugger PIN: 119-629-241
+2025-05-26 23:54:21,100  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-26 23:54:21,141  * Restarting with stat
+2025-05-26 23:54:21,411  * Debugger is active!
+2025-05-26 23:54:21,412  * Debugger PIN: 119-629-241
+2025-05-26 23:54:43,828  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-26 23:54:43,865  * Restarting with stat
+2025-05-26 23:54:44,128  * Debugger is active!
+2025-05-26 23:54:44,128  * Debugger PIN: 119-629-241
+2025-05-26 23:54:45,795 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.179:5000
+2025-05-26 23:54:45,796 [33mPress CTRL+C to quit[0m
+2025-05-26 23:54:45,796  * Restarting with stat
+2025-05-26 23:54:46,067  * Debugger is active!
+2025-05-26 23:54:46,067  * Debugger PIN: 119-629-241
+2025-05-26 23:54:47,445 127.0.0.1 - - [26/May/2025 23:54:47] "GET / HTTP/1.1" 200 -
+2025-05-26 23:54:47,633 127.0.0.1 - - [26/May/2025 23:54:47] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 23:54:47,635 127.0.0.1 - - [26/May/2025 23:54:47] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 23:54:47,636 127.0.0.1 - - [26/May/2025 23:54:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 23:54:47,787 127.0.0.1 - - [26/May/2025 23:54:47] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 23:54:47,898 127.0.0.1 - - [26/May/2025 23:54:47] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 23:54:47,994 {"csp-report":{"document-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/","referrer":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-05-26 23:54:47,994 127.0.0.1 - - [26/May/2025 23:54:47] "POST /csp_report HTTP/1.1" 200 -
+2025-05-26 23:54:48,608 127.0.0.1 - - [26/May/2025 23:54:48] "GET /PDHPE HTTP/1.1" 200 -
+2025-05-26 23:54:48,654 127.0.0.1 - - [26/May/2025 23:54:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 23:54:48,657 127.0.0.1 - - [26/May/2025 23:54:48] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 23:54:48,660 127.0.0.1 - - [26/May/2025 23:54:48] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 23:54:48,697 127.0.0.1 - - [26/May/2025 23:54:48] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 23:54:48,721 127.0.0.1 - - [26/May/2025 23:54:48] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 23:54:50,187 The CSRF token is missing.
+2025-05-26 23:54:50,188 127.0.0.1 - - [26/May/2025 23:54:50] "[31m[1mPOST /PDHPE HTTP/1.1[0m" 400 -
+2025-05-26 23:54:58,991 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.179:5000
+2025-05-26 23:54:58,991 [33mPress CTRL+C to quit[0m
+2025-05-26 23:54:58,992  * Restarting with stat
+2025-05-26 23:54:59,237  * Debugger is active!
+2025-05-26 23:54:59,237  * Debugger PIN: 119-629-241
+2025-05-26 23:55:12,059 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.179:5000
+2025-05-26 23:55:12,059 [33mPress CTRL+C to quit[0m
+2025-05-26 23:55:12,059  * Restarting with stat
+2025-05-26 23:55:12,301  * Debugger is active!
+2025-05-26 23:55:12,301  * Debugger PIN: 119-629-241
+2025-05-26 23:55:13,936 127.0.0.1 - - [26/May/2025 23:55:13] "GET / HTTP/1.1" 200 -
+2025-05-26 23:55:13,980 127.0.0.1 - - [26/May/2025 23:55:13] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 23:55:13,982 127.0.0.1 - - [26/May/2025 23:55:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 23:55:13,984 127.0.0.1 - - [26/May/2025 23:55:13] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 23:55:14,032 127.0.0.1 - - [26/May/2025 23:55:14] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 23:55:14,056 127.0.0.1 - - [26/May/2025 23:55:14] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 23:55:14,127 {"csp-report":{"document-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/","referrer":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-05-26 23:55:14,127 127.0.0.1 - - [26/May/2025 23:55:14] "POST /csp_report HTTP/1.1" 200 -
+2025-05-26 23:55:15,740 127.0.0.1 - - [26/May/2025 23:55:15] "GET /PDHPE HTTP/1.1" 200 -
+2025-05-26 23:55:15,821 127.0.0.1 - - [26/May/2025 23:55:15] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 23:55:15,826 127.0.0.1 - - [26/May/2025 23:55:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 23:55:15,832 127.0.0.1 - - [26/May/2025 23:55:15] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 23:55:15,881 127.0.0.1 - - [26/May/2025 23:55:15] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 23:55:15,908 127.0.0.1 - - [26/May/2025 23:55:15] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 23:55:29,891 The CSRF token is missing.
+2025-05-26 23:55:29,891 127.0.0.1 - - [26/May/2025 23:55:29] "[31m[1mPOST /PDHPE HTTP/1.1[0m" 400 -
+2025-05-26 23:55:31,694 127.0.0.1 - - [26/May/2025 23:55:31] "GET /PDHPE HTTP/1.1" 200 -
+2025-05-26 23:55:34,433 The CSRF token is missing.
+2025-05-26 23:55:34,433 127.0.0.1 - - [26/May/2025 23:55:34] "[31m[1mPOST /PDHPE HTTP/1.1[0m" 400 -
+2025-05-26 23:55:36,262 127.0.0.1 - - [26/May/2025 23:55:36] "GET /PDHPE HTTP/1.1" 200 -
+2025-05-26 23:55:52,037 The CSRF token is missing.
+2025-05-26 23:55:52,038 127.0.0.1 - - [26/May/2025 23:55:52] "[31m[1mPOST /PDHPE HTTP/1.1[0m" 400 -
+2025-05-26 23:55:53,665 127.0.0.1 - - [26/May/2025 23:55:53] "GET /PDHPE HTTP/1.1" 200 -
+2025-05-26 23:56:00,098 The CSRF token is missing.
+2025-05-26 23:56:00,098 127.0.0.1 - - [26/May/2025 23:56:00] "[31m[1mPOST /PDHPE HTTP/1.1[0m" 400 -
+2025-05-26 23:56:01,708 127.0.0.1 - - [26/May/2025 23:56:01] "GET /PDHPE HTTP/1.1" 200 -
+2025-05-26 23:56:12,247 The CSRF token is missing.
+2025-05-26 23:56:12,248 127.0.0.1 - - [26/May/2025 23:56:12] "[31m[1mPOST /PDHPE HTTP/1.1[0m" 400 -
+2025-05-26 23:57:34,702 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.179:5000
+2025-05-26 23:57:34,702 [33mPress CTRL+C to quit[0m
+2025-05-26 23:57:34,703  * Restarting with stat
+2025-05-26 23:57:34,953  * Debugger is active!
+2025-05-26 23:57:34,954  * Debugger PIN: 119-629-241
+2025-05-26 23:57:35,416 127.0.0.1 - - [26/May/2025 23:57:35] "GET / HTTP/1.1" 200 -
+2025-05-26 23:57:35,636 127.0.0.1 - - [26/May/2025 23:57:35] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 23:57:35,650 127.0.0.1 - - [26/May/2025 23:57:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 23:57:35,671 127.0.0.1 - - [26/May/2025 23:57:35] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 23:57:35,827 127.0.0.1 - - [26/May/2025 23:57:35] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 23:57:35,856 127.0.0.1 - - [26/May/2025 23:57:35] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 23:57:35,932 {"csp-report":{"document-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/","referrer":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-05-26 23:57:35,933 127.0.0.1 - - [26/May/2025 23:57:35] "POST /csp_report HTTP/1.1" 200 -
+2025-05-26 23:57:36,604 127.0.0.1 - - [26/May/2025 23:57:36] "GET /PDHPE HTTP/1.1" 200 -
+2025-05-26 23:57:36,648 127.0.0.1 - - [26/May/2025 23:57:36] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 23:57:36,651 127.0.0.1 - - [26/May/2025 23:57:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 23:57:36,653 127.0.0.1 - - [26/May/2025 23:57:36] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 23:57:36,693 127.0.0.1 - - [26/May/2025 23:57:36] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 23:57:36,717 127.0.0.1 - - [26/May/2025 23:57:36] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 23:57:38,984 The CSRF token is missing.
+2025-05-26 23:57:38,984 127.0.0.1 - - [26/May/2025 23:57:38] "[31m[1mPOST /PDHPE HTTP/1.1[0m" 400 -
+2025-05-26 23:58:43,746 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.179:5000
+2025-05-26 23:58:43,746 [33mPress CTRL+C to quit[0m
+2025-05-26 23:58:43,746  * Restarting with stat
+2025-05-26 23:58:44,013  * Debugger is active!
+2025-05-26 23:58:44,013  * Debugger PIN: 119-629-241
+2025-05-26 23:58:44,773 127.0.0.1 - - [26/May/2025 23:58:44] "GET / HTTP/1.1" 200 -
+2025-05-26 23:58:44,813 127.0.0.1 - - [26/May/2025 23:58:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 23:58:44,829 127.0.0.1 - - [26/May/2025 23:58:44] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 23:58:44,832 127.0.0.1 - - [26/May/2025 23:58:44] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 23:58:44,887 127.0.0.1 - - [26/May/2025 23:58:44] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 23:58:44,998 127.0.0.1 - - [26/May/2025 23:58:44] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 23:58:45,084 {"csp-report":{"document-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/","referrer":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-05-26 23:58:45,084 127.0.0.1 - - [26/May/2025 23:58:45] "POST /csp_report HTTP/1.1" 200 -
+2025-05-26 23:58:46,592 127.0.0.1 - - [26/May/2025 23:58:46] "GET /PDHPE HTTP/1.1" 200 -
+2025-05-26 23:58:46,647 127.0.0.1 - - [26/May/2025 23:58:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 23:58:46,650 127.0.0.1 - - [26/May/2025 23:58:46] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 23:58:46,652 127.0.0.1 - - [26/May/2025 23:58:46] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 23:58:46,694 127.0.0.1 - - [26/May/2025 23:58:46] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 23:58:46,718 127.0.0.1 - - [26/May/2025 23:58:46] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 23:58:48,720 The CSRF token is missing.
+2025-05-26 23:58:48,721 127.0.0.1 - - [26/May/2025 23:58:48] "[31m[1mPOST /PDHPE HTTP/1.1[0m" 400 -
+2025-05-26 23:59:39,268  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-26 23:59:39,306  * Restarting with stat

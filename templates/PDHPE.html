@@ -1,0 +1,33 @@
+{% extends 'layout.html' %} {% block content %}
+<div class="container">
+  <div class="row">
+    <h1 class="display-1">PDHPE</h1>
+  </div>
+  <div class="row">
+    <p>Correct answers: {{ correct_answers }}</p>
+    {% if feedback %}
+    <div class="alert alert-info">{{ feedback }}</div>
+    {% endif %}
+  </div>
+  {% if question %}
+  <div class="row">
+    <h3>{{ question.question }}</h3>
+    <form method="post">
+      {{ csrf_token() }}
+      <button type="submit" name="answer" value="a" class="btn btn-primary m-2">
+        A. {{ question.a }}
+      </button>
+      <button type="submit" name="answer" value="b" class="btn btn-primary m-2">
+        B. {{ question.b }}
+      </button>
+      <button type="submit" name="answer" value="c" class="btn btn-primary m-2">
+        C. {{ question.c }}
+      </button>
+      <button type="submit" name="answer" value="d" class="btn btn-primary m-2">
+        D. {{ question.d }}
+      </button>
+    </form>
+  </div>
+  {% endif %}
+</div>
+{% endblock %}
