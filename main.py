@@ -12,10 +12,6 @@ import logging
 import userManagement as dbHandler
 
 
-csrf = CSRFProtect(app)
-# Code snippet for logging a message
-# app.logger.critical("message")
-
 app_log = logging.getLogger(__name__)
 logging.basicConfig(
     filename="security_log.log",
@@ -26,7 +22,7 @@ logging.basicConfig(
 
 # Generate a unique basic 16 key: https://acte.ltd/utils/randomkeygen
 app = Flask(__name__)
-app.secret_key = b"_53oi3uriq9pifpff;apl"
+app.secret_key = "_53oi3uriq9pifpff;apl"
 csrf = CSRFProtect(app)
 
 
@@ -67,7 +63,7 @@ def index():
 
 @app.route("/privacy.html", methods=["GET"])
 def privacy():
-    return render_template("/privacy.html")
+    return render_template("privacy.html")
 
 
 # example CSRF protected form
@@ -76,9 +72,9 @@ def form():
     if request.method == "POST":
         email = request.form["email"]
         text = request.form["text"]
-        return render_template("/form.html")
+        return render_template("form.html")
     else:
-        return render_template("/form.html")
+        return render_template("form.html")
 
 
 # Endpoint for logging CSP violations

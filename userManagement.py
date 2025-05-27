@@ -24,7 +24,7 @@ def get_question():
             "b": row[2],
             "c": row[3],
             "d": row[4],
-            "correct_answer": row[5]  # e.g., "a", "b", "c", or "d"
+            "correct_answer": row[5]
         }
     else:
         return None

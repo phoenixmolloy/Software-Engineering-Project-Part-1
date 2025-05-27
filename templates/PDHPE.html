@@ -13,7 +13,6 @@
   <div class="row">
     <h3>{{ question.question }}</h3>
     <form method="post">
-      {{ csrf_token() }}
       <button type="submit" name="answer" value="a" class="btn btn-primary m-2">
         A. {{ question.a }}
       </button>
@@ -26,6 +25,7 @@
       <button type="submit" name="answer" value="d" class="btn btn-primary m-2">
         D. {{ question.d }}
       </button>
+      <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
     </form>
   </div>
   {% endif %}

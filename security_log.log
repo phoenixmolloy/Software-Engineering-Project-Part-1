@@ -767,3 +767,409 @@
 2025-05-26 23:58:48,721 127.0.0.1 - - [26/May/2025 23:58:48] "[31m[1mPOST /PDHPE HTTP/1.1[0m" 400 -
 2025-05-26 23:59:39,268  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
 2025-05-26 23:59:39,306  * Restarting with stat
+2025-05-27 22:16:50,802 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.130:5000
+2025-05-27 22:16:50,831 [33mPress CTRL+C to quit[0m
+2025-05-27 22:16:50,832  * Restarting with stat
+2025-05-27 22:16:51,138  * Debugger is active!
+2025-05-27 22:16:51,139  * Debugger PIN: 780-795-674
+2025-05-27 22:16:54,121 127.0.0.1 - - [27/May/2025 22:16:54] "GET / HTTP/1.1" 200 -
+2025-05-27 22:16:54,342 127.0.0.1 - - [27/May/2025 22:16:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:16:54,356 127.0.0.1 - - [27/May/2025 22:16:54] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:16:54,360 127.0.0.1 - - [27/May/2025 22:16:54] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:16:54,513 127.0.0.1 - - [27/May/2025 22:16:54] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:16:54,625 127.0.0.1 - - [27/May/2025 22:16:54] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:16:54,732 {"csp-report":{"document-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/","referrer":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-05-27 22:16:54,732 127.0.0.1 - - [27/May/2025 22:16:54] "POST /csp_report HTTP/1.1" 200 -
+2025-05-27 22:16:56,886 127.0.0.1 - - [27/May/2025 22:16:56] "GET /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:16:57,001 127.0.0.1 - - [27/May/2025 22:16:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:16:57,002 127.0.0.1 - - [27/May/2025 22:16:57] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:16:57,004 127.0.0.1 - - [27/May/2025 22:16:57] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:16:57,051 127.0.0.1 - - [27/May/2025 22:16:57] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:16:57,076 127.0.0.1 - - [27/May/2025 22:16:57] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:17:00,888 The CSRF token is missing.
+2025-05-27 22:17:00,888 127.0.0.1 - - [27/May/2025 22:17:00] "[31m[1mPOST /PDHPE HTTP/1.1[0m" 400 -
+2025-05-27 22:17:02,488 127.0.0.1 - - [27/May/2025 22:17:02] "GET /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:17:59,642  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-27 22:17:59,690  * Restarting with stat
+2025-05-27 22:19:07,146 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.130:5000
+2025-05-27 22:19:07,146 [33mPress CTRL+C to quit[0m
+2025-05-27 22:19:07,146  * Restarting with stat
+2025-05-27 22:19:07,512  * Debugger is active!
+2025-05-27 22:19:07,512  * Debugger PIN: 780-795-674
+2025-05-27 22:19:08,235 127.0.0.1 - - [27/May/2025 22:19:08] "GET / HTTP/1.1" 200 -
+2025-05-27 22:19:08,619 127.0.0.1 - - [27/May/2025 22:19:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:19:08,642 127.0.0.1 - - [27/May/2025 22:19:08] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:19:08,644 127.0.0.1 - - [27/May/2025 22:19:08] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:19:08,871 127.0.0.1 - - [27/May/2025 22:19:08] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:19:09,002 127.0.0.1 - - [27/May/2025 22:19:09] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:19:09,100 {"csp-report":{"document-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/","referrer":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-05-27 22:19:09,100 127.0.0.1 - - [27/May/2025 22:19:09] "POST /csp_report HTTP/1.1" 200 -
+2025-05-27 22:19:09,606 127.0.0.1 - - [27/May/2025 22:19:09] "GET /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:19:09,671 127.0.0.1 - - [27/May/2025 22:19:09] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:19:09,674 127.0.0.1 - - [27/May/2025 22:19:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:19:09,677 127.0.0.1 - - [27/May/2025 22:19:09] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:19:09,732 127.0.0.1 - - [27/May/2025 22:19:09] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:19:09,765 127.0.0.1 - - [27/May/2025 22:19:09] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:20:42,958  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-27 22:20:42,995  * Restarting with stat
+2025-05-27 22:20:43,236  * Debugger is active!
+2025-05-27 22:20:43,237  * Debugger PIN: 780-795-674
+2025-05-27 22:25:01,399 The CSRF token is missing.
+2025-05-27 22:25:01,399 127.0.0.1 - - [27/May/2025 22:25:01] "[31m[1mPOST /PDHPE HTTP/1.1[0m" 400 -
+2025-05-27 22:25:15,620 127.0.0.1 - - [27/May/2025 22:25:15] "GET /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:25:17,087 The CSRF token is missing.
+2025-05-27 22:25:17,087 127.0.0.1 - - [27/May/2025 22:25:17] "[31m[1mPOST /PDHPE HTTP/1.1[0m" 400 -
+2025-05-27 22:28:42,431  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-27 22:28:42,469  * Restarting with stat
+2025-05-27 22:28:42,717  * Debugger is active!
+2025-05-27 22:28:42,717  * Debugger PIN: 780-795-674
+2025-05-27 22:29:03,466  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-27 22:29:03,500  * Restarting with stat
+2025-05-27 22:29:03,741  * Debugger is active!
+2025-05-27 22:29:03,741  * Debugger PIN: 780-795-674
+2025-05-27 22:29:05,274 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.130:5000
+2025-05-27 22:29:05,274 [33mPress CTRL+C to quit[0m
+2025-05-27 22:29:05,274  * Restarting with stat
+2025-05-27 22:29:05,520  * Debugger is active!
+2025-05-27 22:29:05,521  * Debugger PIN: 780-795-674
+2025-05-27 22:29:21,923 127.0.0.1 - - [27/May/2025 22:29:21] "GET /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:29:22,170 127.0.0.1 - - [27/May/2025 22:29:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:29:22,174 127.0.0.1 - - [27/May/2025 22:29:22] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:29:22,177 127.0.0.1 - - [27/May/2025 22:29:22] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:29:22,303 127.0.0.1 - - [27/May/2025 22:29:22] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:29:22,420 127.0.0.1 - - [27/May/2025 22:29:22] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:29:24,121 The CSRF token is missing.
+2025-05-27 22:29:24,121 127.0.0.1 - - [27/May/2025 22:29:24] "[31m[1mPOST /PDHPE HTTP/1.1[0m" 400 -
+2025-05-27 22:29:30,288 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.130:5000
+2025-05-27 22:29:30,288 [33mPress CTRL+C to quit[0m
+2025-05-27 22:29:30,289  * Restarting with stat
+2025-05-27 22:29:30,524  * Debugger is active!
+2025-05-27 22:29:30,525  * Debugger PIN: 780-795-674
+2025-05-27 22:29:39,933 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.130:5000
+2025-05-27 22:29:39,933 [33mPress CTRL+C to quit[0m
+2025-05-27 22:29:39,934  * Restarting with stat
+2025-05-27 22:29:40,171  * Debugger is active!
+2025-05-27 22:29:40,171  * Debugger PIN: 780-795-674
+2025-05-27 22:29:41,116 127.0.0.1 - - [27/May/2025 22:29:41] "GET / HTTP/1.1" 200 -
+2025-05-27 22:29:41,162 127.0.0.1 - - [27/May/2025 22:29:41] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:29:41,165 127.0.0.1 - - [27/May/2025 22:29:41] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:29:41,166 127.0.0.1 - - [27/May/2025 22:29:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:29:41,222 127.0.0.1 - - [27/May/2025 22:29:41] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:29:41,254 127.0.0.1 - - [27/May/2025 22:29:41] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:29:41,329 {"csp-report":{"document-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/","referrer":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-05-27 22:29:41,329 127.0.0.1 - - [27/May/2025 22:29:41] "POST /csp_report HTTP/1.1" 200 -
+2025-05-27 22:29:42,744 127.0.0.1 - - [27/May/2025 22:29:42] "GET /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:29:42,790 127.0.0.1 - - [27/May/2025 22:29:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:29:42,793 127.0.0.1 - - [27/May/2025 22:29:42] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:29:42,796 127.0.0.1 - - [27/May/2025 22:29:42] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:29:42,834 127.0.0.1 - - [27/May/2025 22:29:42] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:29:42,858 127.0.0.1 - - [27/May/2025 22:29:42] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:29:44,019 The CSRF token is missing.
+2025-05-27 22:29:44,019 127.0.0.1 - - [27/May/2025 22:29:44] "[31m[1mPOST /PDHPE HTTP/1.1[0m" 400 -
+2025-05-27 22:30:45,217  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/userManagement.py', reloading
+2025-05-27 22:30:45,256  * Restarting with stat
+2025-05-27 22:30:45,498  * Debugger is active!
+2025-05-27 22:30:45,498  * Debugger PIN: 780-795-674
+2025-05-27 22:34:00,657 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.130:5000
+2025-05-27 22:34:00,657 [33mPress CTRL+C to quit[0m
+2025-05-27 22:34:00,658  * Restarting with stat
+2025-05-27 22:34:00,895  * Debugger is active!
+2025-05-27 22:34:00,895  * Debugger PIN: 780-795-674
+2025-05-27 22:34:01,779 127.0.0.1 - - [27/May/2025 22:34:01] "GET / HTTP/1.1" 200 -
+2025-05-27 22:34:01,976 127.0.0.1 - - [27/May/2025 22:34:01] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:01,978 127.0.0.1 - - [27/May/2025 22:34:01] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:01,980 127.0.0.1 - - [27/May/2025 22:34:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:02,138 127.0.0.1 - - [27/May/2025 22:34:02] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:02,249 127.0.0.1 - - [27/May/2025 22:34:02] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:02,345 {"csp-report":{"document-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/","referrer":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-05-27 22:34:02,345 127.0.0.1 - - [27/May/2025 22:34:02] "POST /csp_report HTTP/1.1" 200 -
+2025-05-27 22:34:03,467 127.0.0.1 - - [27/May/2025 22:34:03] "GET /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:34:03,531 127.0.0.1 - - [27/May/2025 22:34:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:03,534 127.0.0.1 - - [27/May/2025 22:34:03] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:03,537 127.0.0.1 - - [27/May/2025 22:34:03] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:03,576 127.0.0.1 - - [27/May/2025 22:34:03] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:03,600 127.0.0.1 - - [27/May/2025 22:34:03] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:05,323 127.0.0.1 - - [27/May/2025 22:34:05] "POST /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:34:05,377 127.0.0.1 - - [27/May/2025 22:34:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:05,380 127.0.0.1 - - [27/May/2025 22:34:05] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:05,382 127.0.0.1 - - [27/May/2025 22:34:05] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:05,416 127.0.0.1 - - [27/May/2025 22:34:05] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:05,444 127.0.0.1 - - [27/May/2025 22:34:05] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:07,455 127.0.0.1 - - [27/May/2025 22:34:07] "POST /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:34:07,499 127.0.0.1 - - [27/May/2025 22:34:07] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:07,501 127.0.0.1 - - [27/May/2025 22:34:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:07,504 127.0.0.1 - - [27/May/2025 22:34:07] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:07,530 127.0.0.1 - - [27/May/2025 22:34:07] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:07,553 127.0.0.1 - - [27/May/2025 22:34:07] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:08,512 127.0.0.1 - - [27/May/2025 22:34:08] "POST /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:34:08,563 127.0.0.1 - - [27/May/2025 22:34:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:08,566 127.0.0.1 - - [27/May/2025 22:34:08] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:08,579 127.0.0.1 - - [27/May/2025 22:34:08] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:08,612 127.0.0.1 - - [27/May/2025 22:34:08] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:08,641 127.0.0.1 - - [27/May/2025 22:34:08] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:09,224 127.0.0.1 - - [27/May/2025 22:34:09] "POST /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:34:09,273 127.0.0.1 - - [27/May/2025 22:34:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:09,275 127.0.0.1 - - [27/May/2025 22:34:09] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:09,278 127.0.0.1 - - [27/May/2025 22:34:09] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:09,308 127.0.0.1 - - [27/May/2025 22:34:09] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:09,332 127.0.0.1 - - [27/May/2025 22:34:09] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:10,179 127.0.0.1 - - [27/May/2025 22:34:10] "POST /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:34:10,232 127.0.0.1 - - [27/May/2025 22:34:10] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:10,235 127.0.0.1 - - [27/May/2025 22:34:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:10,238 127.0.0.1 - - [27/May/2025 22:34:10] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:10,273 127.0.0.1 - - [27/May/2025 22:34:10] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:10,301 127.0.0.1 - - [27/May/2025 22:34:10] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:10,355 127.0.0.1 - - [27/May/2025 22:34:10] "POST /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:34:10,432 127.0.0.1 - - [27/May/2025 22:34:10] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:10,435 127.0.0.1 - - [27/May/2025 22:34:10] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:10,438 127.0.0.1 - - [27/May/2025 22:34:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:10,500 127.0.0.1 - - [27/May/2025 22:34:10] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:10,523 127.0.0.1 - - [27/May/2025 22:34:10] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:10,671 127.0.0.1 - - [27/May/2025 22:34:10] "POST /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:34:10,714 127.0.0.1 - - [27/May/2025 22:34:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:10,717 127.0.0.1 - - [27/May/2025 22:34:10] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:10,733 127.0.0.1 - - [27/May/2025 22:34:10] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:10,769 127.0.0.1 - - [27/May/2025 22:34:10] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:10,793 127.0.0.1 - - [27/May/2025 22:34:10] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:10,993 127.0.0.1 - - [27/May/2025 22:34:10] "POST /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:34:11,050 127.0.0.1 - - [27/May/2025 22:34:11] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:11,053 127.0.0.1 - - [27/May/2025 22:34:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:11,055 127.0.0.1 - - [27/May/2025 22:34:11] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:11,119 127.0.0.1 - - [27/May/2025 22:34:11] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:11,144 127.0.0.1 - - [27/May/2025 22:34:11] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:11,302 127.0.0.1 - - [27/May/2025 22:34:11] "POST /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:34:11,345 127.0.0.1 - - [27/May/2025 22:34:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:11,349 127.0.0.1 - - [27/May/2025 22:34:11] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:11,351 127.0.0.1 - - [27/May/2025 22:34:11] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:11,378 127.0.0.1 - - [27/May/2025 22:34:11] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:11,400 127.0.0.1 - - [27/May/2025 22:34:11] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:11,473 127.0.0.1 - - [27/May/2025 22:34:11] "POST /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:34:11,533 127.0.0.1 - - [27/May/2025 22:34:11] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:11,538 127.0.0.1 - - [27/May/2025 22:34:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:11,542 127.0.0.1 - - [27/May/2025 22:34:11] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:11,592 127.0.0.1 - - [27/May/2025 22:34:11] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:11,620 127.0.0.1 - - [27/May/2025 22:34:11] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:11,789 127.0.0.1 - - [27/May/2025 22:34:11] "POST /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:34:11,838 127.0.0.1 - - [27/May/2025 22:34:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:11,844 127.0.0.1 - - [27/May/2025 22:34:11] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:11,846 127.0.0.1 - - [27/May/2025 22:34:11] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:11,923 127.0.0.1 - - [27/May/2025 22:34:11] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:11,948 127.0.0.1 - - [27/May/2025 22:34:11] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:12,122 127.0.0.1 - - [27/May/2025 22:34:12] "POST /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:34:12,176 127.0.0.1 - - [27/May/2025 22:34:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:12,188 127.0.0.1 - - [27/May/2025 22:34:12] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:12,190 127.0.0.1 - - [27/May/2025 22:34:12] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:12,219 127.0.0.1 - - [27/May/2025 22:34:12] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:12,243 127.0.0.1 - - [27/May/2025 22:34:12] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:12,319 127.0.0.1 - - [27/May/2025 22:34:12] "POST /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:34:12,362 127.0.0.1 - - [27/May/2025 22:34:12] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:12,365 127.0.0.1 - - [27/May/2025 22:34:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:12,367 127.0.0.1 - - [27/May/2025 22:34:12] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:12,440 127.0.0.1 - - [27/May/2025 22:34:12] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:12,470 127.0.0.1 - - [27/May/2025 22:34:12] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:12,671 127.0.0.1 - - [27/May/2025 22:34:12] "POST /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:34:12,733 127.0.0.1 - - [27/May/2025 22:34:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:12,736 127.0.0.1 - - [27/May/2025 22:34:12] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:12,738 127.0.0.1 - - [27/May/2025 22:34:12] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:12,766 127.0.0.1 - - [27/May/2025 22:34:12] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:12,789 127.0.0.1 - - [27/May/2025 22:34:12] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:12,852 127.0.0.1 - - [27/May/2025 22:34:12] "POST /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:34:12,897 127.0.0.1 - - [27/May/2025 22:34:12] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:12,899 127.0.0.1 - - [27/May/2025 22:34:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:12,902 127.0.0.1 - - [27/May/2025 22:34:12] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:12,933 127.0.0.1 - - [27/May/2025 22:34:12] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:12,958 127.0.0.1 - - [27/May/2025 22:34:12] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:13,038 127.0.0.1 - - [27/May/2025 22:34:13] "POST /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:34:13,101 127.0.0.1 - - [27/May/2025 22:34:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:13,104 127.0.0.1 - - [27/May/2025 22:34:13] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:13,109 127.0.0.1 - - [27/May/2025 22:34:13] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:13,141 127.0.0.1 - - [27/May/2025 22:34:13] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:13,167 127.0.0.1 - - [27/May/2025 22:34:13] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:13,220 127.0.0.1 - - [27/May/2025 22:34:13] "POST /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:34:13,264 127.0.0.1 - - [27/May/2025 22:34:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:13,267 127.0.0.1 - - [27/May/2025 22:34:13] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:13,270 127.0.0.1 - - [27/May/2025 22:34:13] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:13,300 127.0.0.1 - - [27/May/2025 22:34:13] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:13,325 127.0.0.1 - - [27/May/2025 22:34:13] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:13,538 127.0.0.1 - - [27/May/2025 22:34:13] "POST /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:34:13,591 127.0.0.1 - - [27/May/2025 22:34:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:13,594 127.0.0.1 - - [27/May/2025 22:34:13] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:13,596 127.0.0.1 - - [27/May/2025 22:34:13] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:13,624 127.0.0.1 - - [27/May/2025 22:34:13] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:13,681 127.0.0.1 - - [27/May/2025 22:34:13] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:13,725 127.0.0.1 - - [27/May/2025 22:34:13] "POST /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:34:13,779 127.0.0.1 - - [27/May/2025 22:34:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:13,789 127.0.0.1 - - [27/May/2025 22:34:13] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:13,805 127.0.0.1 - - [27/May/2025 22:34:13] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:13,835 127.0.0.1 - - [27/May/2025 22:34:13] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:13,861 127.0.0.1 - - [27/May/2025 22:34:13] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:13,935 127.0.0.1 - - [27/May/2025 22:34:13] "POST /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:34:13,990 127.0.0.1 - - [27/May/2025 22:34:13] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:13,994 127.0.0.1 - - [27/May/2025 22:34:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:13,996 127.0.0.1 - - [27/May/2025 22:34:13] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:14,052 127.0.0.1 - - [27/May/2025 22:34:14] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:14,081 127.0.0.1 - - [27/May/2025 22:34:14] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:15,245 127.0.0.1 - - [27/May/2025 22:34:15] "POST /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:34:15,295 127.0.0.1 - - [27/May/2025 22:34:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:15,298 127.0.0.1 - - [27/May/2025 22:34:15] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:15,300 127.0.0.1 - - [27/May/2025 22:34:15] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:15,334 127.0.0.1 - - [27/May/2025 22:34:15] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:15,360 127.0.0.1 - - [27/May/2025 22:34:15] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:15,948 127.0.0.1 - - [27/May/2025 22:34:15] "POST /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:34:16,016 127.0.0.1 - - [27/May/2025 22:34:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:16,020 127.0.0.1 - - [27/May/2025 22:34:16] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:16,023 127.0.0.1 - - [27/May/2025 22:34:16] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:16,054 127.0.0.1 - - [27/May/2025 22:34:16] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:16,080 127.0.0.1 - - [27/May/2025 22:34:16] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:16,426 127.0.0.1 - - [27/May/2025 22:34:16] "POST /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:34:16,471 127.0.0.1 - - [27/May/2025 22:34:16] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:16,474 127.0.0.1 - - [27/May/2025 22:34:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:16,476 127.0.0.1 - - [27/May/2025 22:34:16] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:16,509 127.0.0.1 - - [27/May/2025 22:34:16] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:16,536 127.0.0.1 - - [27/May/2025 22:34:16] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:16,689 127.0.0.1 - - [27/May/2025 22:34:16] "POST /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:34:16,742 127.0.0.1 - - [27/May/2025 22:34:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:16,746 127.0.0.1 - - [27/May/2025 22:34:16] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:16,748 127.0.0.1 - - [27/May/2025 22:34:16] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:16,780 127.0.0.1 - - [27/May/2025 22:34:16] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:16,804 127.0.0.1 - - [27/May/2025 22:34:16] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:16,987 127.0.0.1 - - [27/May/2025 22:34:16] "POST /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:34:17,032 127.0.0.1 - - [27/May/2025 22:34:17] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:17,035 127.0.0.1 - - [27/May/2025 22:34:17] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:17,037 127.0.0.1 - - [27/May/2025 22:34:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:17,067 127.0.0.1 - - [27/May/2025 22:34:17] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:17,092 127.0.0.1 - - [27/May/2025 22:34:17] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:17,242 127.0.0.1 - - [27/May/2025 22:34:17] "POST /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:34:17,300 127.0.0.1 - - [27/May/2025 22:34:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:17,303 127.0.0.1 - - [27/May/2025 22:34:17] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:17,306 127.0.0.1 - - [27/May/2025 22:34:17] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:17,338 127.0.0.1 - - [27/May/2025 22:34:17] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:17,368 127.0.0.1 - - [27/May/2025 22:34:17] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:17,491 127.0.0.1 - - [27/May/2025 22:34:17] "POST /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:34:17,540 127.0.0.1 - - [27/May/2025 22:34:17] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:17,545 127.0.0.1 - - [27/May/2025 22:34:17] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:17,546 127.0.0.1 - - [27/May/2025 22:34:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:17,581 127.0.0.1 - - [27/May/2025 22:34:17] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:17,608 127.0.0.1 - - [27/May/2025 22:34:17] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:17,757 127.0.0.1 - - [27/May/2025 22:34:17] "POST /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:34:17,811 127.0.0.1 - - [27/May/2025 22:34:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:17,813 127.0.0.1 - - [27/May/2025 22:34:17] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:17,816 127.0.0.1 - - [27/May/2025 22:34:17] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:17,844 127.0.0.1 - - [27/May/2025 22:34:17] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:17,872 127.0.0.1 - - [27/May/2025 22:34:17] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:17,970 127.0.0.1 - - [27/May/2025 22:34:17] "POST /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:34:18,016 127.0.0.1 - - [27/May/2025 22:34:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:18,019 127.0.0.1 - - [27/May/2025 22:34:18] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:18,022 127.0.0.1 - - [27/May/2025 22:34:18] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:18,052 127.0.0.1 - - [27/May/2025 22:34:18] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:18,076 127.0.0.1 - - [27/May/2025 22:34:18] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:18,222 127.0.0.1 - - [27/May/2025 22:34:18] "POST /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:34:18,285 127.0.0.1 - - [27/May/2025 22:34:18] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:18,288 127.0.0.1 - - [27/May/2025 22:34:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:18,291 127.0.0.1 - - [27/May/2025 22:34:18] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:18,321 127.0.0.1 - - [27/May/2025 22:34:18] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:18,349 127.0.0.1 - - [27/May/2025 22:34:18] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:18,471 127.0.0.1 - - [27/May/2025 22:34:18] "POST /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:34:18,516 127.0.0.1 - - [27/May/2025 22:34:18] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:18,520 127.0.0.1 - - [27/May/2025 22:34:18] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:18,523 127.0.0.1 - - [27/May/2025 22:34:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:18,554 127.0.0.1 - - [27/May/2025 22:34:18] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:18,584 127.0.0.1 - - [27/May/2025 22:34:18] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:18,728 127.0.0.1 - - [27/May/2025 22:34:18] "POST /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:34:18,788 127.0.0.1 - - [27/May/2025 22:34:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:18,797 127.0.0.1 - - [27/May/2025 22:34:18] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:18,804 127.0.0.1 - - [27/May/2025 22:34:18] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:18,839 127.0.0.1 - - [27/May/2025 22:34:18] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:18,878 127.0.0.1 - - [27/May/2025 22:34:18] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:18,942 127.0.0.1 - - [27/May/2025 22:34:18] "POST /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:34:18,992 127.0.0.1 - - [27/May/2025 22:34:18] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:18,995 127.0.0.1 - - [27/May/2025 22:34:18] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:18,999 127.0.0.1 - - [27/May/2025 22:34:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:19,030 127.0.0.1 - - [27/May/2025 22:34:19] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:19,058 127.0.0.1 - - [27/May/2025 22:34:19] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:19,193 127.0.0.1 - - [27/May/2025 22:34:19] "POST /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:34:19,253 127.0.0.1 - - [27/May/2025 22:34:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:19,256 127.0.0.1 - - [27/May/2025 22:34:19] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:19,259 127.0.0.1 - - [27/May/2025 22:34:19] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:19,292 127.0.0.1 - - [27/May/2025 22:34:19] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:19,319 127.0.0.1 - - [27/May/2025 22:34:19] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:19,408 127.0.0.1 - - [27/May/2025 22:34:19] "POST /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:34:19,457 127.0.0.1 - - [27/May/2025 22:34:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:19,461 127.0.0.1 - - [27/May/2025 22:34:19] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:19,462 127.0.0.1 - - [27/May/2025 22:34:19] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:19,498 127.0.0.1 - - [27/May/2025 22:34:19] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:19,523 127.0.0.1 - - [27/May/2025 22:34:19] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:21,014 127.0.0.1 - - [27/May/2025 22:34:21] "POST /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:34:21,069 127.0.0.1 - - [27/May/2025 22:34:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:21,072 127.0.0.1 - - [27/May/2025 22:34:21] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:21,074 127.0.0.1 - - [27/May/2025 22:34:21] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:21,102 127.0.0.1 - - [27/May/2025 22:34:21] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:21,128 127.0.0.1 - - [27/May/2025 22:34:21] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:22,676 127.0.0.1 - - [27/May/2025 22:34:22] "POST /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:34:22,729 127.0.0.1 - - [27/May/2025 22:34:22] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:22,733 127.0.0.1 - - [27/May/2025 22:34:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:22,736 127.0.0.1 - - [27/May/2025 22:34:22] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:22,770 127.0.0.1 - - [27/May/2025 22:34:22] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:22,796 127.0.0.1 - - [27/May/2025 22:34:22] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:37,789 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.130:5000
+2025-05-27 22:34:37,789 [33mPress CTRL+C to quit[0m
+2025-05-27 22:34:37,790  * Restarting with stat
+2025-05-27 22:34:38,036  * Debugger is active!
+2025-05-27 22:34:38,037  * Debugger PIN: 780-795-674
+2025-05-27 22:34:45,417 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.130:5000
+2025-05-27 22:34:45,417 [33mPress CTRL+C to quit[0m
+2025-05-27 22:34:45,418  * Restarting with stat
+2025-05-27 22:34:45,652  * Debugger is active!
+2025-05-27 22:34:45,652  * Debugger PIN: 780-795-674
+2025-05-27 22:34:46,980 127.0.0.1 - - [27/May/2025 22:34:46] "GET / HTTP/1.1" 200 -
+2025-05-27 22:34:47,026 127.0.0.1 - - [27/May/2025 22:34:47] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:47,034 127.0.0.1 - - [27/May/2025 22:34:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:47,037 127.0.0.1 - - [27/May/2025 22:34:47] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:47,098 127.0.0.1 - - [27/May/2025 22:34:47] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:47,129 127.0.0.1 - - [27/May/2025 22:34:47] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:47,202 {"csp-report":{"document-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/","referrer":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-05-27 22:34:47,202 127.0.0.1 - - [27/May/2025 22:34:47] "POST /csp_report HTTP/1.1" 200 -
+2025-05-27 22:34:57,783 127.0.0.1 - - [27/May/2025 22:34:57] "GET / HTTP/1.1" 200 -
+2025-05-27 22:34:57,834 127.0.0.1 - - [27/May/2025 22:34:57] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:57,838 127.0.0.1 - - [27/May/2025 22:34:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:34:57,839 127.0.0.1 - - [27/May/2025 22:34:57] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:57,901 127.0.0.1 - - [27/May/2025 22:34:57] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:57,936 127.0.0.1 - - [27/May/2025 22:34:57] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:34:58,019 {"csp-report":{"document-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/","referrer":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://bookish-garbanzo-4jq9wg6w79jqcjxxj-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-05-27 22:34:58,020 127.0.0.1 - - [27/May/2025 22:34:58] "POST /csp_report HTTP/1.1" 200 -
+2025-05-27 22:35:03,388 127.0.0.1 - - [27/May/2025 22:35:03] "GET /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:35:03,438 127.0.0.1 - - [27/May/2025 22:35:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:35:03,456 127.0.0.1 - - [27/May/2025 22:35:03] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:35:03,459 127.0.0.1 - - [27/May/2025 22:35:03] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:35:03,507 127.0.0.1 - - [27/May/2025 22:35:03] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:35:03,539 127.0.0.1 - - [27/May/2025 22:35:03] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-27 22:35:05,851 127.0.0.1 - - [27/May/2025 22:35:05] "POST /PDHPE HTTP/1.1" 200 -
+2025-05-27 22:35:05,909 127.0.0.1 - - [27/May/2025 22:35:05] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-27 22:35:05,912 127.0.0.1 - - [27/May/2025 22:35:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:35:05,914 127.0.0.1 - - [27/May/2025 22:35:05] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-27 22:35:05,951 127.0.0.1 - - [27/May/2025 22:35:05] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-27 22:35:05,981 127.0.0.1 - - [27/May/2025 22:35:05] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
