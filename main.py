@@ -101,15 +101,6 @@ def pdhpe():
     if "questions_asked" not in session:
         session["questions_asked"] = 0
 
-    # If 15 questions have been asked, show results
-    if session["questions_asked"] >= 15:
-        correct = session["correct_answers"]
-        # Optionally, reset for a new game
-        session.pop("questions_asked")
-        session.pop("correct_answers")
-        session.pop("current_correct", None)
-        return render_template("results.html", correct=correct, total=15)
-
     if request.method == "POST":
         selected = request.form.get("answer")
         correct = session.get("current_correct")
@@ -119,11 +110,17 @@ def pdhpe():
         elif correct:
             feedback = f"Wrong! The correct answer was {correct.upper()}."
         session["questions_asked"] += 1
-        question = dbHandler.get_question()
-        session["current_correct"] = question["correct_answer"]
-    else:
-        question = dbHandler.get_question()
-        session["current_correct"] = question["correct_answer"]
+
+    # Now check if 15 questions have been asked
+    if session["questions_asked"] >= 15:
+        correct = session["correct_answers"]
+        session.pop("questions_asked")
+        session.pop("correct_answers")
+        session.pop("current_correct", None)
+        return render_template("results.html", correct=correct, total=15)
+
+    question = dbHandler.get_question()
+    session["current_correct"] = question["correct_answer"]
 
     return render_template(
         "PDHPE.html",
