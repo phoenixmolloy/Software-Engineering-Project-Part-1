@@ -1,13 +1,29 @@
-*   {
-
+* {
 }
 body {
-
 }
 .container {
-
 }
 
 .row {
-    
+}
+
+.question-box {
+  min-height: 9em;
+  display: flex;
+  align-items: center;
+}
+
+.main-border {
+  border: 2px solid rgb(166, 48, 166);
+  border-radius: 4px;
+  margin: 0 auto;
+  padding: 24px;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(200, 41, 200, 0.05);
+  min-height: calc(
+    100vh - 56px - 48px
+  ); /* 56px navbar + 48px padding/margins */
+  display: flex;
+  flex-direction: column;
 }

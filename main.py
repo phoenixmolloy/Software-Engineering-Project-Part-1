@@ -100,6 +100,8 @@ def pdhpe():
         session["correct_answers"] = 0
     if "questions_asked" not in session:
         session["questions_asked"] = 0
+    if "asked_questions" not in session:
+        session["asked_questions"] = []
 
     if request.method == "POST":
         selected = request.form.get("answer")
@@ -117,10 +119,19 @@ def pdhpe():
         session.pop("questions_asked")
         session.pop("correct_answers")
         session.pop("current_correct", None)
+        session.pop("asked_questions", None)
         return render_template("results.html", correct=correct, total=15)
 
-    question = dbHandler.get_question()
-    session["current_correct"] = question["correct_answer"]
+    # Get a new question, excluding already asked ones
+    asked_ids = session["asked_questions"]
+    question = dbHandler.get_question(asked_ids)
+    if question:
+        asked_ids.append(question["id"])
+        session["asked_questions"] = asked_ids
+        session["current_correct"] = question["correct_answer"]
+    else:
+        # No more questions available
+        return render_template("results.html", correct=session["correct_answers"], total=session["questions_asked"])
 
     return render_template(
         "PDHPE.html",

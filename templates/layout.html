@@ -15,8 +15,9 @@
     <link href="static/css/bootstrap.min.css" rel="stylesheet" />
   </head>
   <body>
-    {% include "partials/menu.html" %} {% block content %}{% endblock %} {%
-    include "partials/footer.html" %}
+    {% include "partials/menu.html" %}
+    <div class="main-border">{% block content %}{% endblock %}</div>
+    {% include "partials/footer.html" %}
     <script src="static/js/bootstrap.bundle.min.js"></script>
     <script src="static/js/serviceWorker.js"></script>
     <script src="static/js/app.js"></script>
