@@ -23,3 +23,4 @@
 UPDATE Quizzer
 SET correct_answer = 'd'
 WHERE question_number = 19;
+

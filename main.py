@@ -60,7 +60,6 @@ def root():
 def index():
     return render_template("index.html")
 
-
 @app.route("/privacy.html", methods=["GET"])
 def privacy():
     return render_template("privacy.html")
@@ -86,21 +85,12 @@ def csp_report():
 
 # @app.route("/PDHPE", methods=["GET", "POST"])
 # def pdhpe():
-#     if request.method == "POST":
-#         selected = request.form.get("answer")
-#         # You can add logic here to check if the answer is correct
-#         # and fetch a new question or show feedback
-#     question = dbHandler.get_question()
-#     return render_template("PDHPE.html", question=question)
-
-# @app.route("/PDHPE", methods=["GET", "POST"])
-# def pdhpe():
 #     feedback = None
-#     if "correct_answers" not in session:
+
+#     # Always reset on GET (new quiz)
+#     if request.method == "GET":
 #         session["correct_answers"] = 0
-#     if "questions_asked" not in session:
 #         session["questions_asked"] = 0
-#     if "asked_questions" not in session:
 #         session["asked_questions"] = []
 
 #     if request.method == "POST":
@@ -116,8 +106,8 @@ def csp_report():
 #     # Now check if 15 questions have been asked
 #     if session["questions_asked"] >= 15:
 #         correct = session["correct_answers"]
-#         session.pop("questions_asked")
-#         session.pop("correct_answers")
+#         session.pop("questions_asked", None)
+#         session.pop("correct_answers", None)
 #         session.pop("current_correct", None)
 #         session.pop("asked_questions", None)
 #         return render_template("results.html", correct=correct, total=15)
@@ -131,7 +121,7 @@ def csp_report():
 #         session["current_correct"] = question["correct_answer"]
 #     else:
 #         # No more questions available
-#         return render_template("results.html", correct=session["correct_answers"], total=session["questions_asked"])
+#         return render_template("results.html", correct=session.get("correct_answers", 0), total=session.get("questions_asked", 0))
 
 #     return render_template(
 #         "PDHPE.html",
@@ -144,10 +134,12 @@ def csp_report():
 def pdhpe():
     feedback = None
 
-    # Always reset on GET (new quiz)
-    if request.method == "GET":
+    # Initialize session variables if missing
+    if "correct_answers" not in session:
         session["correct_answers"] = 0
+    if "questions_asked" not in session:
         session["questions_asked"] = 0
+    if "asked_questions" not in session:
         session["asked_questions"] = []
 
     if request.method == "POST":
@@ -160,12 +152,18 @@ def pdhpe():
             feedback = f"Wrong! The correct answer was {correct.upper()}."
         session["questions_asked"] += 1
 
+        # Only after answering, append the previous question's ID
+        prev_id = session.get("current_id")
+        if prev_id is not None and prev_id not in session["asked_questions"]:
+            session["asked_questions"].append(prev_id)
+
     # Now check if 15 questions have been asked
     if session["questions_asked"] >= 15:
         correct = session["correct_answers"]
         session.pop("questions_asked", None)
         session.pop("correct_answers", None)
         session.pop("current_correct", None)
+        session.pop("current_id", None)
         session.pop("asked_questions", None)
         return render_template("results.html", correct=correct, total=15)
 
@@ -173,9 +171,8 @@ def pdhpe():
     asked_ids = session["asked_questions"]
     question = dbHandler.get_question(asked_ids)
     if question:
-        asked_ids.append(question["id"])
-        session["asked_questions"] = asked_ids
         session["current_correct"] = question["correct_answer"]
+        session["current_id"] = question["id"]
     else:
         # No more questions available
         return render_template("results.html", correct=session.get("correct_answers", 0), total=session.get("questions_asked", 0))
