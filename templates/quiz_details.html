@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quiz {{ quiz_id }} Details</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/bootstrap.min.css') }}"
+    />
+  </head>
+  <body>
+    <div class="container mt-4">
+      <h2>Quiz {{ quiz_id }} - Details</h2>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Question</th>
+            <th>Selected Answer</th>
+            <th>Correct Answer</th>
+            <th>Mark</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for q in questions %}
+          <tr>
+            <td>{{ q.question }}</td>
+            <td>{{ q.selected_answer }}</td>
+            <td>{{ q.correct_answer }}</td>
+            <td>
+              {% if q.mark %}
+              <span class="text-success">Correct</span>
+              {% else %}
+              <span class="text-danger">Incorrect</span>
+              {% endif %}
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+      <a href="{{ url_for('past_results') }}" class="btn btn-secondary"
+        >Back to Past Results</a
+      >
+    </div>
+  </body>
+</html>

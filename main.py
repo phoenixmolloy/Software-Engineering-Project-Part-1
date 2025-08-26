@@ -83,58 +83,16 @@ def csp_report():
     app.logger.critical(request.data.decode())
     return "done"
 
-# @app.route("/PDHPE", methods=["GET", "POST"])
-# def pdhpe():
-#     feedback = None
 
-#     # Always reset on GET (new quiz)
-#     if request.method == "GET":
-#         session["correct_answers"] = 0
-#         session["questions_asked"] = 0
-#         session["asked_questions"] = []
-
-#     if request.method == "POST":
-#         selected = request.form.get("answer")
-#         correct = session.get("current_correct")
-#         if correct and selected == correct:
-#             session["correct_answers"] += 1
-#             feedback = "Correct!"
-#         elif correct:
-#             feedback = f"Wrong! The correct answer was {correct.upper()}."
-#         session["questions_asked"] += 1
-
-#     # Now check if 15 questions have been asked
-#     if session["questions_asked"] >= 15:
-#         correct = session["correct_answers"]
-#         session.pop("questions_asked", None)
-#         session.pop("correct_answers", None)
-#         session.pop("current_correct", None)
-#         session.pop("asked_questions", None)
-#         return render_template("results.html", correct=correct, total=15)
-
-#     # Get a new question, excluding already asked ones
-#     asked_ids = session["asked_questions"]
-#     question = dbHandler.get_question(asked_ids)
-#     if question:
-#         asked_ids.append(question["id"])
-#         session["asked_questions"] = asked_ids
-#         session["current_correct"] = question["correct_answer"]
-#     else:
-#         # No more questions available
-#         return render_template("results.html", correct=session.get("correct_answers", 0), total=session.get("questions_asked", 0))
-
-#     return render_template(
-#         "PDHPE.html",
-#         question=question,
-#         feedback=feedback,
-#         correct_answers=session["correct_answers"]
-#     )
 
 @app.route("/PDHPE", methods=["GET", "POST"])
 def pdhpe():
     feedback = None
 
     # Initialize session variables if missing
+    if "quiz_id" not in session:
+        # Get the next quiz_id from the database
+        session["quiz_id"] = dbHandler.get_next_quiz_id()
     if "correct_answers" not in session:
         session["correct_answers"] = 0
     if "questions_asked" not in session:
@@ -145,6 +103,23 @@ def pdhpe():
     if request.method == "POST":
         selected = request.form.get("answer")
         correct = session.get("current_correct")
+        prev_id = session.get("current_id")
+        # Get previous question details for recording
+        prev_question = session.get("prev_question")
+        mark = selected == correct if correct else False
+
+        # Record the answered question in Quizzes
+        if prev_id is not None and prev_question is not None:
+            dbHandler.record_quiz_answer(
+                quiz_id=session["quiz_id"],
+                question_id=prev_id,
+                mark=mark,
+                core=prev_question.get("core", ""),
+                topic=prev_question.get("topic", ""),
+                selected_answer=selected,
+                correct_answer=prev_question.get("correct_answer", "")
+            )
+
         if correct and selected == correct:
             session["correct_answers"] += 1
             feedback = "Correct!"
@@ -153,7 +128,6 @@ def pdhpe():
         session["questions_asked"] += 1
 
         # Only after answering, append the previous question's ID
-        prev_id = session.get("current_id")
         if prev_id is not None and prev_id not in session["asked_questions"]:
             session["asked_questions"].append(prev_id)
 
@@ -165,6 +139,8 @@ def pdhpe():
         session.pop("current_correct", None)
         session.pop("current_id", None)
         session.pop("asked_questions", None)
+        session.pop("prev_question", None)
+        session.pop("quiz_id", None)  # Reset quiz_id
         return render_template("results.html", correct=correct, total=15)
 
     # Get a new question, excluding already asked ones
@@ -172,7 +148,8 @@ def pdhpe():
     question = dbHandler.get_question(asked_ids)
     if question:
         session["current_correct"] = question["correct_answer"]
-        session["current_id"] = question["id"]
+        session["current_id"] = question["question_id"]
+        session["prev_question"] = question  # Store for next POST
     else:
         # No more questions available
         return render_template("results.html", correct=session.get("correct_answers", 0), total=session.get("questions_asked", 0))
@@ -183,6 +160,16 @@ def pdhpe():
         feedback=feedback,
         correct_answers=session["correct_answers"]
     )
+
+@app.route("/past_results.html", methods=["GET"])
+def past_results():
+    quizzes = dbHandler.get_quiz_summaries()
+    return render_template("past_results.html", quizzes=quizzes)
+
+@app.route("/quiz_details/<int:quiz_id>", methods=["GET"])
+def quiz_details(quiz_id):
+    questions = dbHandler.get_quiz_details(quiz_id)
+    return render_template("quiz_details.html", questions=questions, quiz_id=quiz_id)
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=5000)

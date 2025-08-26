@@ -8,19 +8,82 @@
 
 --CREATE TABLE Quizzer(id INTEGER PRIMARY KEY autoincrement,question_number int,paper_year int,question TEXT NOT NULL,a TEXT,b TEXT,c TEXT,d TEXT,correct_answer TEXT NOT NULL,core TEXT NOT NULL, topic_question TEXT NOT NULL,dot_point TEXT NOT NULL,point TEXT NOT NULL);
 
--- INSERT INTO Quizzer(question_number ,paper_year ,question,a ,b ,c ,d)
--- VALUES ("19","2024",
--- "Improvements in the health of Aboriginal and Torres Strait Islander peoples in relation
--- to which THREE chronic health conditions has resulted in a reduction in mortality rates?",
--- "Cancer, diabetes, kidney disease",
--- "Cancer, cardiovascular disease, diabetes",
--- "Cancer, cardiovascular disease, kidney disease",
--- "Cardiovascular disease, diabetes, kidney disease");
+-- INSERT INTO Questions(question_number ,paper_year ,question,a ,b ,c ,d)
+-- VALUES ("16","2022",
+-- "Why would an athlete in a weight lifting competition consider using a caffeine supplement
+-- 30 minutes prior to the event?",
+-- "The availability of fat stores will be stimulated so that they can be used as a source
+-- of fuel.",
+-- "The athlete will retain fluid levels, improve their glycogen stores and feel less
+-- fatigued.",
+-- "The central nervous system will be stimulated, increasing trait anxiety and
+-- improving concentration.",
+-- "The central nervous system will be stimulated, increasing the release of adrenaline
+-- and enhancing muscular contractions.");
+
+-- UPDATE Questions
+-- SET b = 'High cholesterol'
+-- WHERE question_id = 18;
+
+-- UPDATE Questions
+-- SET core = '1',
+--     topic = 'identifying priority health issues'
+-- WHERE question_id = 36;
+
+-- measuring health status
+-- identifying priority health issues
+-- groups experiencing health inequities
+-- high levels of preventable chronic disease, injury and mental health problems
+-- a growing and ageing population
+-- health care in Australia
+-- complementary and alternative health care approaches
+-- health promotion based on the five action areas of the Ottawa Charter
+
+-- energy systems
+-- types of training and training methods
+-- principles of training
+-- physiological adaptations in response to training
+-- motivation
+-- anxiety and arousal
+-- psychological strategies to enhance motivation and manage anxiety
+-- nutriional considerations
+-- supplementation
+-- recovery strategies
+-- stages of skill acquisition
+-- characteristics of the learner
+-- the learning environment
+-- assessment of skill and performance
+
+
+
+
+
+
+
+
+
+
+-- ALTER TABLE Questions
+-- ADD COLUMN topic TEXT;
 
 -- ALTER TABLE Quizzer
--- ADD COLUMN core TEXT;
+-- RENAME to Questions;
 
-UPDATE Quizzer
-SET correct_answer = 'd'
-WHERE question_number = 19;
+-- CREATE TABLE Quizzes(quiz_id INTEGER PRIMARY KEY autoincrement, FOREIGN KEY (question_id) REFERENCES Questions(question_id), mark BOOLEAN, core, topic);
 
+-- ALTER TABLE Questions
+-- RENAME COLUMN id to question_id;
+
+-- CREATE TABLE Quizzes(id INTEGER PRIMARY KEY AUTOINCREMENT,
+-- quiz_id INTEGER,
+-- question_id INTEGER,
+-- mark BOOLEAN,
+-- core TEXT,
+-- topic TEXT,
+-- FOREIGN KEY (question_id) REFERENCES Questions(question_id)
+-- );
+
+DELETE FROM Quizzes;
+
+-- ALTER TABLE Quizzes ADD COLUMN selected_answer TEXT;
+-- ALTER TABLE Quizzes ADD COLUMN correct_answer TEXT;
