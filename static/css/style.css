@@ -26,3 +26,28 @@ body {
   display: flex;
   align-items: center;
 }
+
+.text {
+  font-family: "Times New Roman", serif; /* Example font */
+  font-size: 1.3em; /* Example size */
+  /* font-weight: bold; Example weight */
+}
+
+.bottom-left-btn {
+  position: fixed;
+  left: 40px;
+  bottom: 20px;
+  z-index: 1000;
+}
+
+.custom-btn {
+  background-color: #e0e0e0 !important; /* light grey */
+  color: #000 !important; /* black text */
+  border: 1px solid #bdbdbd !important;
+  font-family: "Times New Roman", serif !important;
+.custom-btn:hover,
+.custom-btn:focus {
+  background-color: #d5d5d5 !important; /* slightly darker on hover */
+  color: #000 !important;
+  font-family: "Times New Roman", serif !important;
+}
