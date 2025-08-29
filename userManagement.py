@@ -104,3 +104,18 @@ def get_quiz_details(quiz_id):
         })
     conn.close()
     return results
+
+def get_overall_weakest_topic():
+    conn = sql.connect("databaseFiles/database.db")
+    cursor = conn.cursor()
+    cursor.execute("""
+        SELECT topic, COUNT(*) as incorrect
+        FROM Quizzes
+        WHERE mark = 0
+        GROUP BY topic
+        ORDER BY incorrect DESC
+        LIMIT 1
+    """)
+    row = cursor.fetchone()
+    conn.close()
+    return row[0] if row else "None"

@@ -8,10 +8,9 @@ import requests
 from flask_wtf import CSRFProtect
 from flask_csp.csp import csp_header
 import logging
-
 import userManagement as dbHandler
 
-
+# Set up logging for CSP violations
 app_log = logging.getLogger(__name__)
 logging.basicConfig(
     filename="security_log.log",
@@ -82,7 +81,6 @@ def form():
 def csp_report():
     app.logger.critical(request.data.decode())
     return "done"
-
 
 
 @app.route("/PDHPE", methods=["GET", "POST"])
@@ -164,7 +162,8 @@ def pdhpe():
 @app.route("/past_results.html", methods=["GET"])
 def past_results():
     quizzes = dbHandler.get_quiz_summaries()
-    return render_template("past_results.html", quizzes=quizzes)
+    overall_weakest_topic = dbHandler.get_overall_weakest_topic()
+    return render_template("past_results.html", quizzes=quizzes, overall_weakest_topic=overall_weakest_topic)
 
 @app.route("/quiz_details/<int:quiz_id>", methods=["GET"])
 def quiz_details(quiz_id):

@@ -1,38 +1,29 @@
 {% extends 'layout.html' %} {% block content %}
-<!-- <div class="container">
-  <div class="row">
-    <h1 class="display-1">Quiz Results</h1>
-    <p>You got {{ correct }} out of {{ total }} correct!</p>
-    <div class="row">
-      <a href="{{ url_for('index') }}" class="btn btn-primary">Return Home</a>
-    </div>
-  </div>
-</div> -->
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Past Results</title>
-  </head>
-  <body>
-    <h1>Past Quizzes</h1>
-    <table>
-      <tr>
-        <th>Quiz ID</th>
-        <th>Weakest Topic</th>
-        <th>Details</th>
-      </tr>
-      {% for quiz in quizzes %}
-      <tr>
-        <td>{{ quiz.quiz_id }}</td>
-        <td>{{ quiz.weakest_topic }}</td>
-        <td>
-          <a href="{{ url_for('quiz_details', quiz_id=quiz.quiz_id) }}"
-            >View Details</a
-          >
-        </td>
-      </tr>
-      {% endfor %}
-    </table>
-  </body>
-</html>
+<h1>Past Quizzes</h1>
+<table>
+  <tr>
+    <th>Quiz ID</th>
+    <th>Weakest Topic</th>
+    <th>Details</th>
+  </tr>
+  {% for quiz in quizzes %}
+  <tr>
+    <td>{{ quiz.quiz_id }}</td>
+    <td>{{ quiz.weakest_topic }}</td>
+    <td>
+      <a href="{{ url_for('quiz_details', quiz_id=quiz.quiz_id) }}"
+        >View Details</a
+      >
+    </td>
+  </tr>
+  {% endfor %}
+</table>
+<div class="recommended-bottom">
+  <h3>Recommended Area to Improve</h3>
+  <p>
+    {% if overall_weakest_topic != "None" %} Based on your results, you should
+    focus on: <strong>{{ overall_weakest_topic }}</strong>
+    {% else %} No recommendations yet. Keep practicing! {% endif %}
+  </p>
+</div>
 {% endblock %}

@@ -2,7 +2,7 @@
 }
 body {
   .main-border {
-    border: 12px solid rgb(166, 48, 166);
+    border: 12px solid rgb(23, 164, 216);
     padding: 12px solid rgb(166, 48, 166);
     border-radius: 1px;
     margin: 0 auto;
@@ -41,13 +41,67 @@ body {
 }
 
 .custom-btn {
-  background-color: #e0e0e0 !important; /* light grey */
+  background-color: #f4f4f4 !important; /* light grey */
   color: #000 !important; /* black text */
   border: 1px solid #bdbdbd !important;
   font-family: "Times New Roman", serif !important;
+}
 .custom-btn:hover,
 .custom-btn:focus {
-  background-color: #d5d5d5 !important; /* slightly darker on hover */
+  background-color: #d7d7d7 !important; /* slightly darker on hover */
   color: #000 !important;
   font-family: "Times New Roman", serif !important;
+}
+
+.custom-btn2 {
+  background-color: #e0e0e0 !important;
+  color: #727272 !important;
+  border: 1px solid #bdbdbd !important;
+  font-family: "Times New Roman", serif !important;
+  font-size: 1.6em !important; /* Make text bigger */
+  padding: 0.75em 2em !important; /* Make button bigger */
+}
+.custom-btn2:hover,
+.custom-btn2:focus {
+  background-color: #b0b0b0 !important;
+  color: #515151 !important;
+  border: 1px solid #7c7c7c !important;
+  font-family: "Times New Roman", serif !important;
+  font-size: 1.6em !important;
+  padding: 0.75em 2em !important;
+}
+
+.custom-btn3 {
+  background-color: #f72323 !important;
+  color: #f14c4c !important;
+  border: 1px solid #2044c7 !important;
+  font-family: "Times New Roman", serif !important;
+  font-size: 1.6em !important; /* Make text bigger */
+  padding: 0.75em 2em !important; /* Make button bigger */
+}
+.custom-btn3:hover,
+.custom-btn3:focus {
+  background-color: #7ed770 !important;
+  color: #43ed18 !important;
+  border: 1px solid #fa1e1e !important;
+  font-family: "Times New Roman", serif !important;
+  font-size: 1.6em !important;
+  padding: 0.75em 2em !important;
+}
+
+.left-align {
+  text-align: left !important;
+  justify-content: flex-start !important;
+}
+
+.recommended-bottom {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+  padding: 1em 0;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  z-index: 100;
 }

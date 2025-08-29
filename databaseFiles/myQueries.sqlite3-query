@@ -21,9 +21,11 @@
 -- "The central nervous system will be stimulated, increasing the release of adrenaline
 -- and enhancing muscular contractions.");
 
--- UPDATE Questions
--- SET b = 'High cholesterol'
--- WHERE question_id = 18;
+UPDATE Questions
+SET question = 'The player profile for Athlete A is shown.
+Athlete A: Athletic build, Height: 195 cm (6 ft 4 in), Hardworking, Willingness to listen
+What do the characteristics of Athlete A relate to?'
+WHERE question_id = 4;
 
 -- UPDATE Questions
 -- SET core = '1',
