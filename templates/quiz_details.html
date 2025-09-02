@@ -16,7 +16,9 @@
           <tr>
             <th>Question</th>
             <th>Selected Answer</th>
+            <th>Selected Text</th>
             <th>Correct Answer</th>
+            <th>Correct Text</th>
             <th>Mark</th>
           </tr>
         </thead>
@@ -25,7 +27,9 @@
           <tr>
             <td>{{ q.question }}</td>
             <td>{{ q.selected_answer }}</td>
+            <td>{{ q.selected_text }}</td>
             <td>{{ q.correct_answer }}</td>
+            <td>{{ q.correct_text }}</td>
             <td>
               {% if q.mark %}
               <span class="text-success">Correct</span>

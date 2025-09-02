@@ -69,9 +69,14 @@
   </div>
   <div class="row text">
     <p>Correct answers: {{ correct_answers }}</p>
-    {% if feedback %}
+    {% if feedback %} {% if feedback == "Correct!" %}
+    <div class="alert alert-success text">{{ feedback }}</div>
+    {% else %}
+    <div class="alert alert-danger text">{{ feedback }}</div>
+    {% endif %} {% endif %}
+    <!-- {% if feedback %}
     <div class="alert alert-info text">{{ feedback }}</div>
-    {% endif %}
+    {% endif %} -->
   </div>
   {% endif %}
 </div>

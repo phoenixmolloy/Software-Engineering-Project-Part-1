@@ -88,18 +88,27 @@ def get_quiz_details(quiz_id):
     conn = sql.connect("databaseFiles/database.db")
     cursor = conn.cursor()
     cursor.execute("""
-        SELECT Q.question_id, QS.question, Q.selected_answer, Q.correct_answer, Q.mark
+        SELECT Q.question_id, QS.question, Q.selected_answer, Q.correct_answer, Q.mark,
+               QS.a, QS.b, QS.c, QS.d
         FROM Quizzes Q
         JOIN questions QS ON Q.question_id = QS.question_id
         WHERE Q.quiz_id = ?
     """, (quiz_id,))
     results = []
     for row in cursor.fetchall():
+        selected_letter = row[2]
+        correct_letter = row[3]
+        # Map letter to answer text
+        answer_map = {'a': row[5], 'b': row[6], 'c': row[7], 'd': row[8]}
+        selected_text = answer_map.get(selected_letter, "")
+        correct_text = answer_map.get(correct_letter, "")
         results.append({
             "question_id": row[0],
             "question": row[1],
-            "selected_answer": row[2],
-            "correct_answer": row[3],
+            "selected_answer": selected_letter.upper() if selected_letter else "",
+            "selected_text": selected_text,
+            "correct_answer": correct_letter.upper() if correct_letter else "",
+            "correct_text": correct_text,
             "mark": row[4]
         })
     conn.close()
