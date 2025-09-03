@@ -122,7 +122,9 @@ def pdhpe():
             session["correct_answers"] += 1
             feedback = "Correct!"
         elif correct:
-            feedback = f"Wrong! The correct answer was {correct.upper()}."
+                # Get the correct answer text from prev_question
+                correct_text = prev_question.get(correct, "") if prev_question and correct else ""
+                feedback = f"Wrong! The correct answer was {correct.upper()}: {correct_text}"
         session["questions_asked"] += 1
 
         # Only after answering, append the previous question's ID
